@@ -10,9 +10,9 @@
 ### Si vous souhaitez déployer ailleurs, téléchargez votre creds.json dans le dossier de session après avoir obtenu le code de paire sur replit.
 
 ### 1. <a href="https://github.com/Jeanparker100/PARKY-BUG-BOT/fork"><img src="https://img.shields.io/badge/FORK-blue" alt="Clique ici pour forker PARKY-BUG-BOT" width="70"></a>
-### 2. <a href="https://replit.com/@parjjean/Session?s=app"><img src="https://img.shields.io/badge/PAIR_CODE-red" alt="Clique ici pour avoir le Pair-Code" width="90"></a>
+### 2. <a href="https://replit.com/@parjjean/Session"><img src="https://img.shields.io/badge/PAIR_CODE-red" alt="Clique ici pour avoir le Pair-Code" width="90"></a>
 ### 3. <a href="https://pylexnodes.net"><img src="https://img.shields.io/badge/DEPLOY ON PANEL-black" alt="Clique ici pour déployer sur Panel" width="120"></a>
-### 4. <a href='https://replit.com/github/Deeceexxx/Venom-2' target="_blank"><img alt='Deployer sur Replit' src='https://img.shields.io/badge/-Deploy On Replit-red?style=for-the-badge&logo=replit&logoColor=white'/></a>
+### 4. <a href='https://replit.com/@parjjean/PARKY-BUG-BOT' target="_blank"><img alt='Deployer sur Replit' src='https://img.shields.io/badge/-Deploy On Replit-red?style=for-the-badge&logo=replit&logoColor=white'/></a>
 ## Watch Tutorial videos.
 * [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Jean-Parker-tech)
 
