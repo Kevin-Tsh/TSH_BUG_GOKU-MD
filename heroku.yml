@@ -2,4 +2,4 @@ build: app.json
   docker:
       worker: Dockerfile
 run:
-   worker:   npm run zokou
+   worker:   npm start
