@@ -1,4 +1,4 @@
-build:
+build: app.json
   docker:
       worker: Dockerfile
 run:
