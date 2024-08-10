@@ -14,6 +14,8 @@
 ### 3. <a href="https://replit.com/@parjjean/Session"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Clique ici si le pairing code 1 ne marche pas" width="90"></a>
 ### 4. <a href="https://pylexnodes.net"><img src="https://img.shields.io/badge/DEPLOY ON PANEL-black" alt="Clique ici pour déployer sur Panel" width="120"></a>
 ### 5. <a href='https://replit.com/@parjjean/PARKY-BUG-BOT' target="_blank"><img alt='Deployer sur Replit' src='https://img.shields.io/badge/-Deploy On Replit-red?style=for-the-badge&logo=replit&logoColor=white'/></a>
+## 6. <a href='https://dashboard.render.com/
+ template=https://github.com/Jeanparker100/PARKY-WEB' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/>
 ## Watch Tutorial videos.
 * [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Jean-Parker-tech)
 
