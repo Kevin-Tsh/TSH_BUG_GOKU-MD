@@ -1,18 +1,7 @@
 {
-  "name": "PARKY-BUG-BOT",
-  "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/Jeanparker100/PARKY-BUG-BOT",
-  "logo": "",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ]
+	"name": "hitori",
+	"description": "WhatsApp Bot Using Lib Baileys",
+	"repository": "https://github.com/nazedev/hitori",
+	"logo": "https://node-js-sample.herokuapp.com/node.png",
+	"keywords": ["multi-device"]
 }
