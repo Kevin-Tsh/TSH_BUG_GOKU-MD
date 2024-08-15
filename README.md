@@ -3,7 +3,7 @@
 <p align="center">
 <img src="https://telegra.ph/file/c2df376f2abfeca80373f.jpg"/> 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+_____PARKY-BUG-BOT_____;WHATSAPP+CRASH+x+BUG+BOT;DEVELOPPER+PAR+JEAN+PARKER." alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+PARKY-BUG-BOT;WHATSAPP+CRASH+x+BUG+BOT;DEVELOPPER+PAR+JEAN+PARKER." alt="Typing SVG" /></a>
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -54,7 +54,7 @@ npm start
  
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-# Termux Deployment
+# Déployement sur termux
 ```
 termux-setup-storage
 ```
@@ -131,7 +131,7 @@ npm i -g forever && forever index.js && forever save && forever logs
 ```
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-## ```Connect With Me```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
+## ```Contacter moi```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
  <br> 
 <p align="center">
 <a href="https://wa.me/22898133388"><img src="https://img.shields.io/badge/Contact Parker-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
