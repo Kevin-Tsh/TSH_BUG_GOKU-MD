@@ -2285,7 +2285,7 @@ break
             case 'alive':
             case 'bot':
             case 'allmenu':
-                let xeonmenuoh = `╭═══ 𝙿𝙰𝚁𝙺𝚈-𝙱𝚄𝙶-𝙱𝙾𝚃 ═══⊷
+                let xeonmenuoh = `╭═══ ${botname} ═══⊷
 ┃❃╭──────────────
 ┃❃│ Prefix : [ ]
 ┃❃│ User :  ${pushname}
