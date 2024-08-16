@@ -17,7 +17,7 @@
     "author": "𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛",
     "license": "MIT",
     "dependencies": {
-        "@whiskeysockets/baileys": "^8.0.4",
+        "@whiskeysockets/baileys": "^6.7.6",
         "@adiwajshing/keyed-db": "^0.2.4",
         "@hapi/boom": "^10.0.1",
         "awesome-phonenumber": "^5.9.0",
@@ -46,6 +46,6 @@
         "translate-google-api": "^1.0.4",
         "youtube-yts": "^2.0.0",
         "ytdl-core": "^4.11.0",
-        "youtubedl-core": "^1.0.8"
+        "youtubedl-core": "^4.11.7"
     }
 }
