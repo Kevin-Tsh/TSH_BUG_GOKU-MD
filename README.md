@@ -12,7 +12,7 @@
 ### 1. <a href="https://github.com/Jeanparker100/PARKY-BUG-BOT/fork"><img src="https://img.shields.io/badge/FORK-blue" alt="Clique ici pour forker PARKY-BUG-BOT" width="70"></a>
 ### 2. <a href="https://parky-web.onrender.com/"><img src="https://img.shields.io/badge/PAIR_CODE-green" alt="Clique ici pour avoir le Pair-Code" width="90"></a>
 ### 3. <a href="https://replit.com/@parjjean/Session"><img src="https://img.shields.io/badge/PAIR_CODE-orange" alt="Clique ici si le pairing code 1 ne marche pas" width="90"></a>
-### 4. <a href="https://panel.solarhosting.cc"><img src="https://img.shields.io/badge/DÉPLOYER SUR PANEL-pink" alt="Clique ici pour déployer sur Panel"src=https://img.shields.io/badge/-DEPLOYER SUR PANEL-pink? width="120"></a>
+### 4. <a href='https://panel.solarhosting.cc' target="_blank"><img alt='Deployer sur Panel' src='https://img.shields.io/badge/-DEPLOYER SUR PANEL-pink?style=for-the-badge&logo=solar&logoColor=white'/></a>
 ### 5. <a href='https://replit.com/@parjjean/PARKY-BUG-BOT' target="_blank"><img alt='Deployer sur Replit' src='https://img.shields.io/badge/-DEPLOYER SUR REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
 ## 6. <a href='https://dashboard.render.com/template=https://github.com/Jeanparker100/PARKY-WEB' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOYER SUR RENDER-black?style=for-the-badge&logo=render&logoColor=white'/>
 ## Pour regarder des tutoriels.
