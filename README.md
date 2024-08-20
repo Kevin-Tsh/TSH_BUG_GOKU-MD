@@ -15,8 +15,8 @@
 ### 4. <a href="https://panel.solarhosting.cc"><img src="https://img.shields.io/badge/DÉPLOYER SUR PANEL-pink" alt="Clique ici pour déployer sur Panel" width="120"></a>
 ### 5. <a href='https://replit.com/@parjjean/PARKY-BUG-BOT' target="_blank"><img alt='Deployer sur Replit' src='https://img.shields.io/badge/-DEPLOYER SUR REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
 ## 6. <a href='https://dashboard.render.com/template=https://github.com/Jeanparker100/PARKY-WEB' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOYER SUR RENDER-black?style=for-the-badge&logo=render&logoColor=white'/>
-## Watch Tutorial videos.
-* [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Jean-Parker-tech)
+## Pour regarder des tutoriels.
+* [![YOUTUBE](https://img.shields.io/badge/COMMENT DÉPLOYER-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Jean-Parker-tech)
 
 
 </br>
@@ -111,11 +111,11 @@ npm i -g forever && forever index.js && forever save && forever logs
 <br>
 <h2 align="center"> 🛡️ Windows Cmd & Vs 🛡️ </h2>
 
-- [Download ffmpeg](https://ffmpeg.org/download.html#build-windows) and set the path
-- [Download wget](https://eternallybored.org/misc/wget/releases/) and set the path
-- [Download Node.js](https://nodejs.org/en/download/)
+- [Télécharger ffmpeg](https://ffmpeg.org/download.html#build-windows) and set the path
+- [Télécharger wget](https://eternallybored.org/misc/wget/releases/) and set the path
+- [Télécharger Node.js](https://nodejs.org/en/download/)
 - [Download Git](https://git-scm.com/downloads)
-- [Download Libwebp](https://developers.google.com/speed/webp/download)
+- [Télécharger Libwebp](https://developers.google.com/speed/webp/download)
 
 ```cmd
 > git https://github.com/Jeanparker100/PARKY-BUG-BOT
