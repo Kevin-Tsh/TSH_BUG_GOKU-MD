@@ -11,22 +11,22 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "22898133388"
+global.ownernomer = "243891716833"
 global.ownername = "🩵 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛"
 global.ytname = "YT: Jean-parker-tech"
 global.socialm = "GitHub: Jeanparker100"
 global.location = "Togo, maritime, Lomé"
 
-global.ownernumber = '22898133388'  //creator number
-global.ownername = '𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛' //owner name
-global.botname = '𝙿𝙰𝚁𝙺𝚈-𝙱𝚄𝙶-𝙱𝙾𝚃' //name of the bot
+global.ownernumber = '243891716833'  //creator number
+global.ownername = 'MR KEVIN TSH' //owner name
+global.botname = 'TSH_BUG_BOT' //name of the bot
 
 //sticker details
 global.packname = '¹⁴³ ᴬˡᵉᵐᵃᵖ 🧸💜'
 global.author = '𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛'
 
 //console view/theme
-global.themeemoji = '🩵'
+global.themeemoji = '🌹'
 global.wm = "𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 in©"
 
 //theme link
@@ -40,9 +40,9 @@ global.autoRecording = false //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
-global.autobio = true //auto update bio
+global.autobio = false //auto update bio
 global.anti92 = false //auto block +92 
-global.autoswview = true //auto view status/story
+global.autoswview = false //auto view status/story
 
 //menu type 
 //v1 is image menu, 
