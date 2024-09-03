@@ -174,7 +174,7 @@ XeonBotInc.ev.on("connection.update",async  (s) => {
         	console.log(chalk.magenta(` `))
             console.log(chalk.yellow(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2)))
 			await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`𝙿𝙰𝚁𝙺𝚈-𝙱𝚄𝙶-𝙱𝙾𝚃`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`🐲𝑻𝑺𝑯_𝑩𝑼𝑮_𝑮𝑶𝑲𝑼-𝑴𝑫🐲`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
 	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: Jean-parker-tech`))
             console.log(chalk.magenta(`${themeemoji} GITHUB: Jeanparker100`))
