@@ -1,27 +1,26 @@
-# PARKY-BUG-BOT
+# 🐲𝑻𝑺𝑯_𝑩𝑼𝑮_𝑮𝑶𝑲𝑼-𝑴𝑫🐲
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
-<img src="https://telegra.ph/file/c2df376f2abfeca80373f.jpg"/> 
+<img src="https://telegra.ph/file/2c8a210bf1748e32aff84.jpg"/> 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+PARKY-BUG-BOT;WHATSAPP+CRASH+x+BUG+BOT;DEVELOPPER+PAR+JEAN+PARKER." alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+🐲𝐆𝐎𝐊𝐔-𝐌𝐃🐲 ;WHATSAPP+CRASH+x+BUG+BOT;DEVELOPPER+PAR;🌹+𝐌𝐑.+ 𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇+🌹" alt="Typing SVG" /></a>
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-### Si vous souhaitez déployer ailleurs, téléchargez votre creds.json dans le dossier de session après avoir obtenu le code de paire sur replit.
+### La partie session id ou code paire n'est pas encore prête. merci de modifier (Database et settings) puis téléchargez ça en zip et deployez sur panel. rien de compliqué !!
 
-### 1. <a href="https://github.com/Jeanparker100/PARKY-BUG-BOT/fork"><img title="WEB" src="https://img.shields.io/badge/FORK PARKY-WEB?color=black&style=for-the-badge&logo=stackshare"></a>
+### 1. <a href="https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD/fork"><img title="WEB" src="https://img.shields.io/badge/FORK GOKU-WEB?color=black&style=for-the-badge&logo=stackshare"></a>
 ### 2. <a href="https://parky-web-1.onrender.com"><img src="https://img.shields.io/badge/PAIR_CODE-green" alt="Clique ici pour avoir le Pair-Code" width="90"></a>
-### 3. <a href="https://replit.com/@parjjean/Parky-pair-code"><img src="https://img.shields.io/badge/PAIR_CODE-orange" alt="Clique ici si le pairing code 1 ne marche pas" width="90"></a>
+
 ### 4. <a href='https://panel.solarhosting.cc' target="_blank"><img alt='Deployer sur Panel' src='https://img.shields.io/badge/-DEPLOYER SUR PANEL-pink?style=for-the-badge&logo=solar&logoColor=white'/></a>
-### 5. <a href='https://replit.com/@parjjean/PARKY-BUG-BOT' target="_blank"><img alt='Deployer sur Replit' src='https://img.shields.io/badge/-DEPLOYER SUR REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
-## 6. <a href='https://dashboard.render.com/template=https://github.com/Jeanparker100/PARKY-WEB' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOYER SUR RENDER-black?style=for-the-badge&logo=render&logoColor=white'/>
+
 ## Pour regarder des tutoriels.
-* [![YOUTUBE](https://img.shields.io/badge/COMMENT-DEPLOYER-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Jean-Parker-tech)
+* [![YOUTUBE](https://img.shields.io/badge/COMMENT-DEPLOYER-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@alvinjlaste...13)
 
 
 </br>
 
-#### COPIE ET PASSE CES COMMANDES SI TU VEUX DÉPLOYER  [PARKY-BUG-BOT](https://github.com/Jeanparker100/PARKY-BUG-BOT) SUR UN TERMINAL 
+#### COPIE ET PASSE CES COMMANDES SI TU VEUX DÉPLOYER  [🐲𝑻𝑺𝑯_𝑩𝑼𝑮_𝑮𝑶𝑲𝑼-𝑴𝑫🐲]([https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD) SUR UN TERMINAL 
 ```
 sudo apt -y update && sudo apt -y upgrade
 ```
@@ -44,16 +43,17 @@ sudo npm install -g yarn
 sudo yarn global add pm2
 ```
 ```
-git clone https://github.com/type-your-username-here/PARKY-BUG-BOT
+git clone https://github.com/type-your-username-here/TSH_BUG_GOKU-MD
 ```
 ```
-cd PARKY-BUG-BOT 
+cd  TSH_BUG_GOKU-MD
 yarn install 
 npm start
 ```
  
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 # Déployement sur termux
 ```
 termux-setup-storage
@@ -92,7 +92,7 @@ pkg install yarn
 git clone (copie et passe le lien du repo aue tu a fork) 
 ```
 ```
-cd PARKY-BUG-BOT
+cd TSH_BUG_GOKU-MD
 ```
 ```
 yarn install
@@ -121,7 +121,7 @@ npm i -g forever && forever index.js && forever save && forever logs
 > git https://github.com/Jeanparker100/PARKY-BUG-BOT
 ```
 ```
-> cd PARKY-BUG-BOT
+> cd TSH_BUG_GOKU-MD
 ```
 ```
 > yarn install
@@ -131,12 +131,12 @@ npm i -g forever && forever index.js && forever save && forever logs
 ```
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-## ```Contacter moi```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
+## ```Contactez moi```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
  <br> 
 <p align="center">
-<a href="https://wa.me/22898133388"><img src="https://img.shields.io/badge/Contact Parker-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://whatsapp.com/channel/0029VagLiHaEVccM6o6Sqc45"><img src="https://img.shields.io/badge/Join Official Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://www.youtube.com/@Jean-Parker-tech"><img src="https://img.shields.io/badge/Subscribe-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/@Jean-Parker-tech" /><br>
+<a href="https://Wa.me/+243976995779"><img src="https://img.shields.io/badge/Contact KÉVIN-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://whatsapp.com/channel/0029VaivDmh4NVieblSgij2d"><img src="https://img.shields.io/badge/Join Official Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://www.youtube.com/@alvinblaste...13"><img src="https://img.shields.io/badge/Subscribe-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/@alvinblaste...13" /><br>
 <p align="center">
 <img alt="Development" width="250" src="https://media2.giphy.com/media/W9tBvzTXkQopi/giphy.gif?cid=6c09b952xu6syi1fyqfyc04wcfk0qvqe8fd7sop136zxfjyn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" /> </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
