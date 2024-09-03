@@ -1,9 +1,9 @@
-# 🐲𝑻𝑺𝑯_𝑩𝑼𝑮_𝑮𝑶𝑲𝑼-𝑴𝑫🐲
+# 𝑻𝑺𝑯_𝑩𝑼𝑮_𝑮𝑶𝑲𝑼-𝑴𝑫
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
 <img src="https://telegra.ph/file/2c8a210bf1748e32aff84.jpg"/> 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+🐲𝐆𝐎𝐊𝐔-𝐌𝐃🐲 ;WHATSAPP+CRASH+x+BUG+BOT;DEVELOPPER+PAR;🌹+𝐌𝐑.+ 𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇+🌹" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+🐲𝐆𝐎𝐊𝐔-𝐌𝐃🐲 ;WHATSAPP+CRASH+x+BUG+BOT;     DÉVELOPPÉ+PAR;    🌹+𝐌𝐑.+ 𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇+🌹" alt="Typing SVG" /></a>
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
