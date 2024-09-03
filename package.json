@@ -1,5 +1,5 @@
 {
-    "name": "PARKY-BUG-BOT",
+    "name": "TSH_BUG_GOKU-MD",
     "version": "1.0.0",
     "description": "WhatsApp War Bot Using Nodejs",
     "main": "index.js",
@@ -14,7 +14,7 @@
     "scripts": {
         "start": "node index.js"
     },
-    "author": "𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛",
+    "author": "Kevin Tsh",
     "license": "MIT",
     "dependencies": {
         "@whiskeysockets/baileys": "^6.7.6",
