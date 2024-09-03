@@ -888,7 +888,7 @@ senddocu(buffer)
             case 'leave':
                 if (!isCreator) return replygcxeon(mess.owner)
                 if (!m.isGroup) return replygcxeon(mess.group)
-                replygcxeon('*Bye Everyone 👋🩵*')
+                replygcxeon('*Bye Everyone 👋🐲*')
                 await XeonBotInc.groupLeave(m.chat)
                 break
             case 'backup':
@@ -915,7 +915,7 @@ senddocu(buffer)
                 replygcxeon(`*Send Broadcast To ${anu.length} Group Chat, End Time ${anu.length * 1.5} second*`)
                 for (let i of anu) {
                     await sleep(1500)
-                    let a = '🩵' + `\n\n${text}\n\n` + '' + '\n\n\n> 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛'
+                    let a = '🐲' + `\n\n${text}\n\n` + '' + '\n\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇'
                     XeonBotInc.sendMessage(i, {
                         text: a,
                         contextInfo: {
@@ -923,7 +923,7 @@ senddocu(buffer)
                                 showAdAttribution: true,
                                 title: '*Broadcast By Owner*',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://telegra.ph/file/e5455ce7415bc9ab0068c.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -1096,11 +1096,11 @@ senddocu(buffer)
                 if (!m.isGroup) return replygcxeon(mess.group)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
-                let teks = `*👨‍👩‍👧‍👦🩵 Tag All*
+                let teks = `*👨‍👩‍👧‍👦🐲 Tag All*
  
                  👻¸🗨️ *Message : ${q ? q : ''}*\n\n`
                 for (let mem of participants) {
-                    teks += `🩵 @${mem.id.split('@')[0]}\n`
+                    teks += `🐲 @${mem.id.split('@')[0]}\n`
                 }
                 XeonBotInc.sendMessage(m.chat, {
                     text: teks,
@@ -1163,7 +1163,7 @@ senddocu(buffer)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
                 let response = await XeonBotInc.groupInviteCode(m.chat)
-                XeonBotInc.sendText(m.chat, `🩵 *GROUP LINK INFO*\n🩵 *Name :* ${groupMetadata.subject}\n🩵 *Group Owner :* ${groupMetadata.owner !== undefined ? '@' + groupMetadata.owner.split`@`[0] : 'Not known'}\n🩵 *ID :* ${groupMetadata.id}\n🩵— *Chat Link :* https://chat.whatsapp.com/${response}\n🩵 *Member :* ${groupMetadata.participants.length}\n`, m, {
+                XeonBotInc.sendText(m.chat, `🐲 *GROUP LINK INFO*\n🐲 *Name :* ${groupMetadata.subject}\n🐲 *Group Owner :* ${groupMetadata.owner !== undefined ? '@' + groupMetadata.owner.split`@`[0] : 'Not known'}\n🐲 *ID :* ${groupMetadata.id}\n🐲— *Chat Link :* https://chat.whatsapp.com/${response}\n🐲 *Member :* ${groupMetadata.participants.length}\n`, m, {
                     detectLink: true
                 })
                 break
@@ -1213,7 +1213,7 @@ senddocu(buffer)
                 respon = `
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
-🩵» Info Server
+🐲» Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 _NodeJS Memory Usaage_
@@ -1229,9 +1229,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `YouTube Jean-parker-tech`,
+                            title: `YouTube alvinblaste...13`,
                             body: `${latensi.toFixed(4)} Second`,
-                            thumbnailUrl: 'https://telegra.ph/file/e5455ce7415bc9ab0068c.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1245,7 +1245,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'buypremium':
             case 'buyprem':
             case 'premium': {
-                let teks = `*Salut ${pushname}\n Premium est payant ! \n Met ton numéro dans Premium json file! \n et dépôt à Jean parker pour l'activer on Youtube channel Jean-parker-tech*`
+                let teks = `*Salut ${pushname}\n Premium est payant ! \n Mets ton numéro dans Premium json file! \n et dépôt à Kevin Tsh pour l'activer on Youtube channel alvinblaste...13*`
                 await XeonBotInc.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
@@ -1253,7 +1253,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${ownername}`,
-                            thumbnailUrl: 'https://telegra.ph/file/e5455ce7415bc9ab0068c.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1271,9 +1271,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `Yt Jean-parker-tech`,
-                            body: `Love from Jean Parker 🩵`,
-                            thumbnailUrl: 'https://telegra.ph/file/e5455ce7415bc9ab0068c.jpg',
+                            title: `Yt alvinblaste...13`,
+                            body: `Love from Kevin Tsh 🐲`,
+                            thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1287,13 +1287,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'script':
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `🌐 *_Git:_* https://github.com/Jeanparker100/PARKY-BUG-BOT\n\n🪀 *_Group:_* https://chat.whatsapp.com/L8NDXnqqDZn2uEtzsgZ8ES\n\n🪀 *_Channel:_* https://whatsapp.com/channel/0029VagLiHaEVccM6o6Sqc45\n\n🩵 *_Dev:_* https://Wa.me//+22898133388`,
+                    text: `🌐 *_Git:_* https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD\n\n🪀 *_Group:_* https://chat.whatsapp.com/EWPYzfWp2ljK3RBlatnnFM\n\n🪀 *_Channel:_* https://whatsapp.com/channel/0029VaivDmh4NVieblSgij2d\n\n🐲 *_Dev:_* https://Wa.me/+243976995779`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `SCRIPT OF Parky-MD is on YouTube Jean-parker-tech 🩵`,
-                            body: `Love You bro 🩵`,
-                            thumbnailUrl: 'https://telegra.ph/file/e5455ce7415bc9ab0068c.jpg',
+                            title: `SCRIPT OF GOKU-MD is on YouTube alvinblaste...13 🐲`,
+                            body: `Love You bro 🐲`,
+                            thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1305,9 +1305,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 break
             case 'donate':
             case 'donasi':
-                let textnate = `*Bonjour ${pushname}*\n\n *Quelques soit comment c'est petit c'est l'intention qui compte*  \n *Flooz :* +22898133388`
+                let textnate = `*Bonjour ${pushname}*\n\n *Quelques soit comment c'est petit c'est l'intention qui compte*  \n *Flooz :* +243976995779`
                 XeonBotInc.sendMessage(m.chat, {
-                    text: '*Don de soutien pour Jean Parker*\n\n' + textnate
+                    text: '*Don de soutien pour Kevin Tsh*\n\n' + textnate
                 }, {
                     quoted: m
                 })
@@ -1572,7 +1572,7 @@ break
                 if (args.length < 1) return replygcxeon(`Example:\n${prefix}fliptext Xeony`)
                 quere = args.join(" ")
                 flipe = quere.split('').reverse().join('')
-                replygcxeon(`\`\`\`🩵 FLIP TEXT 🩵\`\`\`\n*🩵> Normal :*\n${quere}\n*🩵> Flip :*\n${flipe}`)
+                replygcxeon(`\`\`\`🐲 FLIP TEXT 🐲\`\`\`\n*🐲> Normal :*\n${quere}\n*🐲> Flip :*\n${flipe}`)
             }
             break
             case 'listvn': {
@@ -1853,7 +1853,7 @@ break
                 replygcxeon(`@${m.sender.split('@')[0]} Currently AFK\nWith reason : ${reason}`)
                 break
 case 'play':  case 'song': {
-if (!text) return replygcxeon(`Example : ${prefix + command} Coup de marteau`)
+if (!text) return replygcxeon(`Example : ${prefix + command} Trailer Son Goku`)
 const xeonplaymp3 = require('./lib/ytdl2')
 let yts = require("youtube-yts")
         let search = await yts(text)
@@ -2079,11 +2079,11 @@ break
 //bug cases
 case "xandroid": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 228xxxxxxxx,5*`) 
+  if (!text) return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 243xxxxxxxx,5*`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 228xxxxxxxx,5*`) 
+    return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 243xxxxxxxx,5*`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("Amount must be a number");
@@ -2098,24 +2098,24 @@ case "xandroid": {
   if (contactInfo.length == 0) {
     return replygcxeon("*The number is not registered on WhatsApp*");
   }
-  replygcxeon("*please wait, " + command + " Amaterasu 👀🔥 is in process...*");
+  replygcxeon("*please wait, " + command + " Morsure du soleil ☀️🔥 est en processus...*");
   await sleep(2000); // Adjusted sleep time for clarity
   sendVariousMessages(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "*Successfully Sent Amaterasu 👀🔥 To @" + whatsappNumber.split('@')[0] + 
-    " Using " + command + "* \n\n*Pause 2 minutes so that the bot is not banned.*\n\n> 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 ©", 
+    "*Successfully Sent Morsure du soleil ☀️🔥 To @" + whatsappNumber.split('@')[0] + 
+    " Using " + command + "* \n\n*Pause 2 minutes so that the bot is not banned.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ©", 
     [whatsappNumber]
   );
 }
 break;
 case "xios": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 228xxxxxxxx,5*`) 
+  if (!text) return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 243xxxxxxxx,5*`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 228xxxxxxxx,5*`) 
+    return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 243xxxxxxxx,5*`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("Amount must be a number");
@@ -2130,13 +2130,13 @@ case "xios": {
   if (contactInfo.length == 0) {
     return replygcxeon("The number is not registered on WhatsApp");
   }
-  replygcxeon("*please wait, " + command + " Kamehameha is in process...*");
+  replygcxeon("*please wait, " + command + " Kamehameha 🐲 est en processus...*");
   await sleep(2000); // Adjusted sleep time for clarity
   sendMultiplePaymentInvites(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
     "*Kamehameha 🌀 Sent To @" + whatsappNumber.split('@')[0] + 
-    " Using " + command + "*\n\n*Pause 2 minutes so that the bot is not banned.*\n\n> 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 ©", 
+    " Using " + command + "*\n\n*Pause 2 minutes so that the bot is not banned.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ©", 
     [whatsappNumber]
   );
 }
@@ -2187,7 +2187,7 @@ case "xios2":
     if (!text) {
       return replygcxeon("*HOW TO SEND BUG TO GROUP*\n\n" + (prefix + command) + " https://chat.whatsapp.com/xxxx\n\n_*Note: If you want to send a large number of bugs, please type as follows*_\n\n*Ex: ." + command + " linkgc amount*\n\n*Example:*\n." + command + " *https://chat.whatsapp.com/xxxx 10*");
     }
-    replygcxeon("*please wait, " + command + " Gomu Gomu no red hawk 🤜🔥 is in process...*");
+    replygcxeon("*please wait, " + command + " Orbe d energie ☄️🔥 est en processus...*");
     if (!text.split(" ")[0].includes("whatsapp.com")) {
       return replygcxeon("*Link Invalid!*");
     }
@@ -2198,7 +2198,7 @@ case "xios2":
       await sleep(2000); // Adjusted sleep time for clarity
       sendViewOnceMessages(groupTarget, bugAmount);
       await sleep(2500); // Adjusted sleep time for clarity
-      replygcxeon("*Done… Gomu Gomu no red hawk 🤜🔥 Has Been Sent To The Group!\n\n> 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 ©*");
+      replygcxeon("*Done… Orbe d energe ☄️🔥 A ete Envoye Dans Le Groupe!\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ©*");
       XeonBotInc.groupLeave(groupTarget);
     } catch (error) {
       replygcxeon(util.format(error));
@@ -2207,11 +2207,11 @@ case "xios2":
   break;
   case "systemuicrash": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 228xxxxxxxx,5*`) 
+  if (!text) return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 243xxxxxxxx,5*`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 228xxxxxxxx,5*`) 
+    return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 243xxxxxxxx,5*`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("*Amount must be a number*");
@@ -2232,18 +2232,18 @@ case "xios2":
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
     "*Successfully Sent Bankai -Senbonzakura kageyoshi ⚔️ To @" + whatsappNumber.split('@')[0] + 
-    " Using " + command + "* \n\n*Pause 2 minutes so that the bot is not banned.*\n\n> 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 ©", 
+    " Using " + command + "* \n\n*Pause 2 minutes so that the bot is not banned.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ©", 
     [whatsappNumber]
   );
 }
 break;
 case "xsysui": {
   if (!isPremium) return replygcxeon(mess.prem)
-  if (!text) return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 228xxxxxxxx,5*`) 
+  if (!text) return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 243xxxxxxxx,5*`) 
   let number = text.split(',')[0];
   let amount = text.split(',')[1] * 5;
   if (!number || !amount) {
-    return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 228xxxxxxxx,5*`) 
+    return replygcxeon(`*Use ${prefix+command} victim number|amount*\n*Example ${prefix+command} 243xxxxxxxx,5*`) 
   }
   if (isNaN(parseInt(amount))) {
     return replygcxeon("*Amount must be a number*");
@@ -2283,7 +2283,7 @@ break
             case 'menu':
             case 'help':
             case 'alive':
-            case 'bot':
+            case 'Goku':
             case 'allmenu':
                 let xeonmenuoh = `╭═══ ${botname} ═══⊷
 ┃❃╭──────────────
@@ -2300,121 +2300,121 @@ break
 ╰═════════════════⊷
 
 ╭═══ 𝙰𝙽𝙳𝚁𝙾𝙸𝙳  𝙱𝚄𝙶 ⚠️ ═══⊷ 
-┃ 🩵 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙
-┃ 🩵 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙2
-┃ 🩵 𝙨𝚢𝚜𝚝𝚎𝚖𝚞𝚒𝚌𝚑
-┃ 🩵 𝙭𝚜𝚢𝚜𝚞𝚒
+┃ 🐲 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙
+┃ 🐲 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙2
+┃ 🐲 𝙨𝚢𝚜𝚝𝚎𝚖𝚞𝚒𝚌𝚑
+┃ 🐲 𝙭𝚜𝚢𝚜𝚞𝚒
 ╰═════════════════⊷
 
 ╭═══ 𝙸𝙾𝚂  𝙱𝚄𝙶 🐛 ═══⊷
-┃ 🩵 𝙭𝚒𝚘𝚜
-┃ 🩵 𝙭𝚒𝚘𝚜2
+┃ 🐲 𝙭𝚒𝚘𝚜
+┃ 🐲 𝙭𝚒𝚘𝚜2
 ╰═════════════════⊷
 
 ╭═══ 𝙶𝚁𝙾𝚄𝙿  𝙱𝚄𝙶 🦠 ═══⊷ 
-┃ 🩵 𝙭𝚐𝚌
+┃ 🐲 𝙭𝚐𝚌
 ╰═════════════════⊷
 
 ╭═══ 𝙾𝚆𝙽𝙴𝚁  𝙼𝙴𝙽𝙐 🔐 ═══⊷ 
-┃ 🩵 ɢᴇᴛsᴇssɪᴏɴ
-┃ 🩵 ᴅᴇʟᴇᴛᴇssɪᴏɴ
-┃ 🩵 ᴘᴘ
-┃ 🩵 ᴊᴏɪɴ
-┃ 🩵 sʜᴜᴛᴅᴏᴡɴ  
-┃ 🩵 ʀᴇsᴛᴀʀᴛ
-┃ 🩵 ᴀᴜᴛᴏʀᴇᴀᴅ 
-┃ 🩵 ᴀᴜᴛᴏᴛʏᴘɪɴɢ 
-┃ 🩵 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅɪɴɢ 
-┃ 🩵 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅᴛʏᴘ 
-┃ 🩵 ᴀᴜᴛᴏsᴡᴠɪᴇᴡ 
-┃ 🩵 ᴍᴏᴅᴇ 
-┃ 🩵 ʙʟᴏᴄᴋ
-┃ 🩵 ᴜɴʙʟᴏᴄᴋ 
-┃ 🩵 ʙᴀᴄᴋᴜᴘ
-┃ 🩵 ɢᴇᴛᴄᴀsᴇ
-┃ 🩵 ᴀᴅᴅᴏᴡɴᴇʀ
-┃ 🩵 ᴅᴇʟᴏᴡɴᴇʀ
-┃ 🩵 ʙᴄɢᴄ
+┃ 🐲 ɢᴇᴛsᴇssɪᴏɴ
+┃ 🐲 ᴅᴇʟᴇᴛᴇssɪᴏɴ
+┃ 🐲 ᴘᴘ
+┃ 🐲 ᴊᴏɪɴ
+┃ 🐲 sʜᴜᴛᴅᴏᴡɴ  
+┃ 🐲 ʀᴇsᴛᴀʀᴛ
+┃ 🐲 ᴀᴜᴛᴏʀᴇᴀᴅ 
+┃ 🐲 ᴀᴜᴛᴏᴛʏᴘɪɴɢ 
+┃ 🐲 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅɪɴɢ 
+┃ 🐲 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅᴛʏᴘ 
+┃ 🐲 ᴀᴜᴛᴏsᴡᴠɪᴇᴡ 
+┃ 🐲 ᴍᴏᴅᴇ 
+┃ 🐲 ʙʟᴏᴄᴋ
+┃ 🐲 ᴜɴʙʟᴏᴄᴋ 
+┃ 🐲 ʙᴀᴄᴋᴜᴘ
+┃ 🐲 ɢᴇᴛᴄᴀsᴇ
+┃ 🐲 ᴀᴅᴅᴏᴡɴᴇʀ
+┃ 🐲 ᴅᴇʟᴏᴡɴᴇʀ
+┃ 🐲 ʙᴄɢᴄ
 ╰═════════════════⊷
 
 ╭═══ 𝙶𝚁𝙾𝚄𝙿  𝙼𝙴𝙽𝚄 👪 ═══⊷
-┃ 🩵 ᴄʟᴏsᴇᴛɪᴍᴇ
-┃ 🩵 ᴏᴘᴇɴᴛɪᴍᴇ
-┃ 🩵 ᴋɪᴄᴋ
-┃ 🩵 ᴀᴅᴅ
-┃ 🩵 ᴘʀᴏᴍᴏᴛᴇ
-┃ 🩵 ᴅᴇᴍᴏᴛᴇ
-┃ 🩵 sᴇᴛᴅᴇsᴄ
-┃ 🩵 sᴇᴛᴘᴘɢᴄ
-┃ 🩵 ᴛᴀɢᴀʟʟ
-┃ 🩵 ʜɪᴅᴇᴛᴀɢ
-┃ 🩵 ᴛᴏᴛᴀɢ
-┃ 🩵 ɢʀᴏᴜᴘ 
-┃ 🩵 ᴇᴅɪᴛɪɴғᴏ
-┃ 🩵 ʟɪɴᴋɢᴄ
-┃ 🩵 ʀᴇᴠᴏᴋᴇ
-┃ 🩵 ʟɪsᴛᴏɴʟɪɴᴇ
+┃ 🐲 ᴄʟᴏsᴇᴛɪᴍᴇ
+┃ 🐲 ᴏᴘᴇɴᴛɪᴍᴇ
+┃ 🐲 ᴋɪᴄᴋ
+┃ 🐲 ᴀᴅᴅ
+┃ 🐲 ᴘʀᴏᴍᴏᴛᴇ
+┃ 🐲 ᴅᴇᴍᴏᴛᴇ
+┃ 🐲 sᴇᴛᴅᴇsᴄ
+┃ 🐲 sᴇᴛᴘᴘɢᴄ
+┃ 🐲 ᴛᴀɢᴀʟʟ
+┃ 🐲 ʜɪᴅᴇᴛᴀɢ
+┃ 🐲 ᴛᴏᴛᴀɢ
+┃ 🐲 ɢʀᴏᴜᴘ 
+┃ 🐲 ᴇᴅɪᴛɪɴғᴏ
+┃ 🐲 ʟɪɴᴋɢᴄ
+┃ 🐲 ʀᴇᴠᴏᴋᴇ
+┃ 🐲 ʟɪsᴛᴏɴʟɪɴᴇ
 ╰═════════════════⊷
 
 ╭═══ 𝙈𝒶𝒾𝓃  𝙼𝙴𝙽𝙐 ❤️ ═══⊷
-┃ 🩵 ᴍᴇɴᴜ
-┃ 🩵 ʙᴜʏᴘʀᴇᴍɪᴜᴍ
-┃ 🩵 ʀᴜɴᴛɪᴍᴇ
-┃ 🩵 sᴄʀɪᴘᴛ
-┃ 🩵 ᴅᴏɴᴀᴛᴇ
-┃ 🩵 ᴏᴡɴᴇʀ
-┃ 🩵 ᴊᴇᴀɴᴘᴀʀᴋᴇʀ
+┃ 🐲 ᴍᴇɴᴜ
+┃ 🐲 ʙᴜʏᴘʀᴇᴍɪᴜᴍ
+┃ 🐲 ʀᴜɴᴛɪᴍᴇ
+┃ 🐲 sᴄʀɪᴘᴛ
+┃ 🐲 ᴅᴏɴᴀᴛᴇ
+┃ 🐲 ᴏᴡɴᴇʀ
+┃ 🐲 ᴊᴇᴀɴᴘᴀʀᴋᴇʀ
 ╰═════════════════⊷
 
 ╭═══ 𝙲𝙾𝙽𝙑𝙴𝚁𝚃 🔄 ═══⊷
-┃ 🩵 sᴛɪᴄᴋᴇʀ
-┃ 🩵 sᴍᴇᴍᴇ
-┃ 🩵 ᴛᴀᴋᴇ
-┃ 🩵 ᴛᴏɪᴍᴀɢᴇ
-┃ 🩵 ᴛᴏᴠɪᴅᴇᴏ
-┃ 🩵 ᴛᴏᴀᴜᴅɪᴏ
-┃ 🩵 ᴛᴏᴍᴘ3
-┃ 🩵 ᴛᴏᴠɴ
-┃ 🩵 ᴛᴏɢɪғ
-┃ 🩵 ᴛᴏᴜʀʟ
-┃ 🩵 ᴛᴏǫʀ
-┃ 🩵 ᴛᴏᴠɪᴇᴡᴏɴᴄᴇ
-┃ 🩵 ғʟɪᴘᴛᴇxᴛ
-┃ 🩵 ᴇᴍᴏᴊɪᴍɪx
+┃ 🐲 sᴛɪᴄᴋᴇʀ
+┃ 🐲 sᴍᴇᴍᴇ
+┃ 🐲 ᴛᴀᴋᴇ
+┃ 🐲 ᴛᴏɪᴍᴀɢᴇ
+┃ 🐲 ᴛᴏᴠɪᴅᴇᴏ
+┃ 🐲 ᴛᴏᴀᴜᴅɪᴏ
+┃ 🐲 ᴛᴏᴍᴘ3
+┃ 🐲 ᴛᴏᴠɴ
+┃ 🐲 ᴛᴏɢɪғ
+┃ 🐲 ᴛᴏᴜʀʟ
+┃ 🐲 ᴛᴏǫʀ
+┃ 🐲 ᴛᴏᴠɪᴇᴡᴏɴᴄᴇ
+┃ 🐲 ғʟɪᴘᴛᴇxᴛ
+┃ 🐲 ᴇᴍᴏᴊɪᴍɪx
 ╰═════════════════⊷
 
 ╭═══ 𝘼𝕌𝒯𝒪 𝙱𝙶𝙼, 📢 ═══⊷
-┃ 🩵 ᴀᴅᴅvɪᴅᴇᴏ
-┃ 🩵 ᴀᴅᴅ𝒾ᴍᴀɢᴇ
-┃ 🩵 ᴀᴅᴅsᴛɪᴄᴋᴇʀ
-┃ 🩵 ᴀᴅᴅvɴ
-┃ 🩵 ᴀᴅᴅᴢɪᴘ
-┃ 🩵 ᴀᴅᴅᴀ𝓅𝓀
-┃ 🩵 ᴀᴅᴅᴘᴅ
-┃ 🩵 ᴅᴇʟvɪᴅᴇᴏ
-┃ 🩵 ᴅᴇʟ𝒾ᴍᴀɢᴇ
-┃ 🩵 ᴅᴇʟsᴛɪᴄᴋᴇʀ
-┃ 🩵 ᴅᴇʟvɴ
-┃ 🩵 ᴅᴇʟᴢɪᴘ
-┃ 🩵 ᴅᴇʟᴀ𝓅𝓀
-┃ 🩵 ᴅᴇʟᴘᴅ
-┃ 🩵 ʟɪsᴛvɪᴅᴇᴏ
-┃ 🩵 ʟɪsᴛ𝒾ᴍᴀɢᴇ
-┃ 🩵 ʟɪsᴛsᴛɪᴄᴋᴇʀ
-┃ 🩵 ʟɪsᴛvɴ
-┃ 🩵 ʟɪsᴛᴢɪᴘ
-┃ 🩵 ʟɪsᴛᴀ𝓅𝓀
-┃ 🩵 ʟɪsᴛᴘᴅ
+┃ 🐲 ᴀᴅᴅvɪᴅᴇᴏ
+┃ 🐲 ᴀᴅᴅ𝒾ᴍᴀɢᴇ
+┃ 🐲 ᴀᴅᴅsᴛɪᴄᴋᴇʀ
+┃ 🐲 ᴀᴅᴅvɴ
+┃ 🐲 ᴀᴅᴅᴢɪᴘ
+┃ 🐲 ᴀᴅᴅᴀ𝓅𝓀
+┃ 🐲 ᴀᴅᴅᴘᴅ
+┃ 🐲 ᴅᴇʟvɪᴅᴇᴏ
+┃ 🐲 ᴅᴇʟ𝒾ᴍᴀɢᴇ
+┃ 🐲 ᴅᴇʟsᴛɪᴄᴋᴇʀ
+┃ 🐲 ᴅᴇʟvɴ
+┃ 🐲 ᴅᴇʟᴢɪᴘ
+┃ 🐲 ᴅᴇʟᴀ𝓅𝓀
+┃ 🐲 ᴅᴇʟᴘᴅ
+┃ 🐲 ʟɪsᴛvɪᴅᴇᴏ
+┃ 🐲 ʟɪsᴛ𝒾ᴍᴀɢᴇ
+┃ 🐲 ʟɪsᴛsᴛɪᴄᴋᴇʀ
+┃ 🐲 ʟɪsᴛvɴ
+┃ 🐲 ʟɪsᴛᴢɪᴘ
+┃ 🐲 ʟɪsᴛᴀ𝓅𝓀
+┃ 🐲 ʟɪsᴛᴘᴅ
 ╰═════════════════⊷
 
 ╭═══ 𝙳𝙾𝚆𝙽𝙇𝙾𝒶𝒹 📥 ═══⊷
-┃ 🩵 ᴘ𝓵𝒶ʏ
-┃ 🩵 ʏᴛᴍ𝓃
-┃ 🩵 ʏᴛᴍ𝓅4
-┃ 🩵 sᴏᴜɴᴅ1 - sᴏᴜɴᴅ161
+┃ 🐲 ᴘ𝓵𝒶ʏ
+┃ 🐲 ʏᴛᴍ𝓃
+┃ 🐲 ʏᴛᴍ𝓅4
+┃ 🐲 sᴏᴜɴᴅ1 - sᴏᴜɴᴅ161
 ╰═════════════════⊷
 
-> 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 ©`
+> 🌹𝐌𝐑. 𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹 ©`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         text: xeonmenuoh,
@@ -2422,7 +2422,7 @@ if (typemenu === 'v1') {
                             externalAdReply: {
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://telegra.ph/file/e5455ce7415bc9ab0068c.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
                                 sourceUrl: link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2440,7 +2440,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/e5455ce7415bc9ab0068c.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
