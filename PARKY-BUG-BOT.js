@@ -743,13 +743,13 @@ senddocu(buffer)
                 break
             case 'shutdown':
                 if (!isCreator) return replygcxeon(mess.owner)
-                replygcxeon(`*Goodbye 👋*`)
+                replygcxeon(`*Goodbye 👋🐲*`)
                 await sleep(3000)
                 process.exit()
                 break
             case 'restart':
                 if (!isCreator) return replygcxeon(mess.owner)
-                replygcxeon('*In Process...*')
+                replygcxeon('*Goku est en cours de processus...*')
                 exec('pm2 restart all')
                 break
             case 'autoread':
@@ -923,7 +923,7 @@ senddocu(buffer)
                                 showAdAttribution: true,
                                 title: '*Broadcast By Owner*',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/e699cb075e1a4bda4f208.jpg',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -931,7 +931,7 @@ senddocu(buffer)
                         }
                     })
                 }
-                replygcxeon(`*Successfully Sent Broadcast To ${anu.length} Group*`)
+                replygcxeon(`*Broadcast envoye avec succès dans les ${anu.length} Groupes*`)
             }
             break
             case 'getcase':
@@ -951,8 +951,8 @@ senddocu(buffer)
                     id,
                     isBaileys
                 } = m.quoted
-                if (!isBaileys) return replygcxeon('*The message was not sent by a bot!*')
-                XeonBotInc.sendMessage(m.chat, {
+                if (!isBaileys) return replygcxeon('*Ce message n a pas ete envoye par un bot !*')
+                xeonBotInc.sendMessage(m.chat, {
                     delete: {
                         remoteJid: m.chat,
                         fromMe: true,
@@ -1213,7 +1213,7 @@ senddocu(buffer)
                 respon = `
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
-🐲» Info Server
+🐲 *GOKUO* » Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 _NodeJS Memory Usaage_
@@ -1231,7 +1231,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `YouTube alvinblaste...13`,
                             body: `${latensi.toFixed(4)} Second`,
-                            thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/0f3a4498b60151e2248f5.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1245,7 +1245,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'buypremium':
             case 'buyprem':
             case 'premium': {
-                let teks = `*Salut ${pushname}\n Premium est payant ! \n Mets ton numéro dans Premium json file! \n et dépôt à Kevin Tsh pour l'activer on Youtube channel alvinblaste...13*`
+                let teks = `*Salut ${pushname}\n Premium est payant ! \n Mets ton numéro dans Premium json file! \n et dépôt à Kevin Tsh pour l'activer sur Youtube channel alvinblaste...13*`
                 await XeonBotInc.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
@@ -1253,7 +1253,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${ownername}`,
-                            thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/e699cb075e1a4bda4f208.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1272,8 +1272,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                         externalAdReply: {
                             showAdAttribution: true,
                             title: `Yt alvinblaste...13`,
-                            body: `Love from Kevin Tsh 🐲`,
-                            thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
+                            body: `Cool avec Kevin Tsh 🐲`,
+                            thumbnailUrl: 'https://telegra.ph/file/0f3a4498b60151e2248f5.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1291,9 +1291,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `SCRIPT OF GOKU-MD is on YouTube alvinblaste...13 🐲`,
-                            body: `Love You bro 🐲`,
-                            thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
+                            title: `SCRIPT DE GOKU-MD EST SUR YouTube alvinblaste...13 🐲`,
+                            body: `Merci de suivre la chaîne bro 🐲`,
+                            thumbnailUrl: 'https://telegra.ph/file/e699cb075e1a4bda4f208.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1305,9 +1305,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 break
             case 'donate':
             case 'donasi':
-                let textnate = `*Bonjour ${pushname}*\n\n *Quelques soit comment c'est petit c'est l'intention qui compte*  \n *Flooz :* +243976995779`
+                let textnate = `*Bonjour ${pushname}*\n\n *RIEN DE EXTRAORDINAIRE ! PETIT OU GRAND C'EST L'ATTENTION QUI COMPTE*  \n *Flooz :* +243976995779`
                 XeonBotInc.sendMessage(m.chat, {
-                    text: '*Don de soutien pour Kevin Tsh*\n\n' + textnate
+                    text: '*Un petit don de soutien pour moi Kevin Tsh*\n\n' + textnate
                 }, {
                     quoted: m
                 })
@@ -2098,13 +2098,13 @@ case "xandroid": {
   if (contactInfo.length == 0) {
     return replygcxeon("*The number is not registered on WhatsApp*");
   }
-  replygcxeon("*please wait, " + command + " Morsure du soleil ☀️🔥 est en processus...*");
+  replygcxeon("*VEUILLEZ PATIENTER, " + command + " LA MORSURE DU SOLEIL ☀️🔥 EST EN COURS DE PROCESSUS...*");
   await sleep(2000); // Adjusted sleep time for clarity
   sendVariousMessages(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "*Successfully Sent Morsure du soleil ☀️🔥 To @" + whatsappNumber.split('@')[0] + 
-    " Using " + command + "* \n\n*Pause 2 minutes so that the bot is not banned.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ©", 
+    "*LA MORSURE DU SOLEIL A ETE ENVOYÉ AVEC SUCCÈS ☀️🔥 A @" + whatsappNumber.split('@')[0] + 
+    " Using " + command + "* \n\n*Faites une pause de 2 minutes pour que le bot ne soit pas banni.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ✓", 
     [whatsappNumber]
   );
 }
@@ -2130,13 +2130,13 @@ case "xios": {
   if (contactInfo.length == 0) {
     return replygcxeon("The number is not registered on WhatsApp");
   }
-  replygcxeon("*please wait, " + command + " Kamehameha 🐲 est en processus...*");
+  replygcxeon("*VEUILLEZ PATIENTER, " + command + " LE KAMÉHAMÉHA 🌀🐲 EST EN COURS DE PROCESSUS...*");
   await sleep(2000); // Adjusted sleep time for clarity
   sendMultiplePaymentInvites(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "*Kamehameha 🌀 Sent To @" + whatsappNumber.split('@')[0] + 
-    " Using " + command + "*\n\n*Pause 2 minutes so that the bot is not banned.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ©", 
+    "*LE KAMÉHAMÉHA 🌀🐲 A ETE ENVOYÉ AVEC SUCCÈS A @" + whatsappNumber.split('@')[0] + 
+    " Using " + command + "*\n\n*Faites une pause de 2 minutes pour que le bot ne soit pas banni.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ✓", 
     [whatsappNumber]
   );
 }
@@ -2154,7 +2154,7 @@ case "xios2":
       return replygcxeon("*Amount must be a number*");
     }
     let encodedValue = encodeURI(text) * 200; // Adjusted calculation for clarity
-    replygcxeon("*please wait, " + command + " Bankai Zanka No Tachi 🗡️ is in process...*");
+    replygcxeon("*VEUILLEZ PATIENTER, " + command + " Bankai Zanka No Tachi 🗡️ EST EN COURS DE PROCESSUS...*");
     await sleep(1500); // Adjusted sleep time for clarity
     sendMultiplePaymentInvites(from, encodedValue);
     await sleep(2500); // Adjusted sleep time for clarity
@@ -2174,7 +2174,7 @@ case "xios2":
       return replygcxeon("*Amount must be a number*");
     }
     let encodedValue = encodeURI(text) * 200; // Adjusted calculation for clarity
-    replygcxeon("*please wait, " + command + " One for all -United states of Smash 🤜🌬️ is in process...*");
+    replygcxeon("*VEUILLEZ PATIENTER, " + command + " One for all -United states of Smash 🤜🌬️ EST EN COURS DE PROCESSUS...*");
     await sleep(1500); // Adjusted sleep time for clarity
     sendVariousMessages(from, encodedValue);
     await sleep(2500); // Adjusted sleep time for clarity
@@ -2185,9 +2185,9 @@ case "xios2":
   {
     if (!isPremium) return replygcxeon(mess.prem)
     if (!text) {
-      return replygcxeon("*HOW TO SEND BUG TO GROUP*\n\n" + (prefix + command) + " https://chat.whatsapp.com/xxxx\n\n_*Note: If you want to send a large number of bugs, please type as follows*_\n\n*Ex: ." + command + " linkgc amount*\n\n*Example:*\n." + command + " *https://chat.whatsapp.com/xxxx 10*");
+      return replygcxeon("*COMMENT FAIRE POUR ENVOYER UN BUG SUR LE GROUPE*\n\n" + (prefix + command) + " https://chat.whatsapp.com/xxxx\n\n_*Note: If you want to send a large number of bugs, please type as follows*_\n\n*Ex: ." + command + " linkgc amount*\n\n*Example:*\n." + command + " *https://chat.whatsapp.com/xxxx 10*");
     }
-    replygcxeon("*please wait, " + command + " Orbe d energie ☄️🔥 est en processus...*");
+    replygcxeon("*VEUILLEZ PATIENTER, " + command + " L'ORBE D'ÉNERGIE ☄️🔥 EST EN COURS DE PROCESSUS...*");
     if (!text.split(" ")[0].includes("whatsapp.com")) {
       return replygcxeon("*Link Invalid!*");
     }
@@ -2198,7 +2198,7 @@ case "xios2":
       await sleep(2000); // Adjusted sleep time for clarity
       sendViewOnceMessages(groupTarget, bugAmount);
       await sleep(2500); // Adjusted sleep time for clarity
-      replygcxeon("*Done… Orbe d energe ☄️🔥 A ete Envoye Dans Le Groupe!\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ©*");
+      replygcxeon("*FAIT… L'ORBE D'ÉNERGIE ☄️🔥 A ÉTÉ ENVOYÉ DANS LE GROUPE AVEC SUCCÈS !\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ✓*");
       XeonBotInc.groupLeave(groupTarget);
     } catch (error) {
       replygcxeon(util.format(error));
@@ -2226,13 +2226,13 @@ case "xios2":
   if (contactInfo.length == 0) {
     return replygcxeon("*The number is not registered on WhatsApp*");
   }
-  replygcxeon("*please wait, " + command + " Bankai -SenbonZakura Kageyoshi ⚔️is in process...*");
+  replygcxeon("*VEUILLEZ PATIENTER, " + command + " Bankai -SenbonZakura Kageyoshi ⚔️ EST EN COURS DE PROCESSUS...*");
   await sleep(2000); // Adjusted sleep time for clarity
   sendMixedMessages(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "*Successfully Sent Bankai -Senbonzakura kageyoshi ⚔️ To @" + whatsappNumber.split('@')[0] + 
-    " Using " + command + "* \n\n*Pause 2 minutes so that the bot is not banned.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ©", 
+    "*Bankai -Senbonzakura kageyoshi ⚔️ ENVOYÉ AVEC SUCCÈS À @" + whatsappNumber.split('@')[0] + 
+    " Using " + command + "* \n\n*Faites une pause de 2 minutes pour que le bot ne soit pas banni.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ✓", 
     [whatsappNumber]
   );
 }
@@ -2258,14 +2258,13 @@ case "xsysui": {
   if (contactInfo.length == 0) {
     return replygcxeon("*The number is not registered on WhatsApp*");
   }
-  replygcxeon("*please wait, " + command + " Rasengan 🌀 is in process...*");
+  replygcxeon("*VEUILLEZ PATIENTER, " + command + " LE Rasengan 🌀 EST EN COURS DE PROCESSUS...*");
   await sleep(2000); // Adjusted sleep time for clarity
   sendRepeatedMessages2(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "*Successfully Sent Rasengan 🌀 To @" + whatsappNumber.split('@')[0] + 
-    " Using " + command + "* \n\n*Pause 2 minutes so that the bot is not banned.*", 
-    [whatsappNumber]
+    "*LE Rasengan A ETE ENVOYÉ AVEC SUCCÈS 🌀 A @" + whatsappNumber.split('@')[0] + 
+    " Using " + command + "* \n\n*Faites une pause de 2 minutes pour que le bot ne soit pas banni.*, [whatsappNumber]
   );
 }
 break;
@@ -2285,136 +2284,136 @@ break
             case 'alive':
             case 'Goku':
             case 'allmenu':
-                let xeonmenuoh = `╭═══ ${botname} ═══⊷
-┃❃╭──────────────
-┃❃│ Prefix : [ ]
-┃❃│ User :  ${pushname}
-┃❃│ Time : ${xeonytimewisher}
-┃❃│ Day : Regarde sur la montre
-┃❃│ Date : le calendrier est là !
-┃❃│ Version : 1.0
-┃❃│ Plugins : 250
-┃❃│ Ram : 64 GB
-┃❃│ Alive : ${runtime(process.uptime())}
-┃❃╰───────────────
+                let xeonmenuoh = `____( ${botname} )_____________
+┃🍷╭──────────────
+┃🍷│ Prefix : [ ]
+┃🍷│ User :  ${pushname}
+┃🍷│ Time : ${xeonytimewisher}
+┃🍷│ Day : Regarde sur la montre
+┃🍷│ Date : le calendrier est là !
+┃🍷│ Version : 1.0
+┃🍷│ Plugins : 250
+┃🍷│ Ram : 64 GB
+┃🍷│ Alive : ${runtime(process.uptime())}
+┃🍷╰───────────────
 ╰═════════════════⊷
 
-╭═══ 𝙰𝙽𝙳𝚁𝙾𝙸𝙳  𝙱𝚄𝙶 ⚠️ ═══⊷ 
-┃ 🐲 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙
-┃ 🐲 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙2
-┃ 🐲 𝙨𝚢𝚜𝚝𝚎𝚖𝚞𝚒𝚌𝚑
-┃ 🐲 𝙭𝚜𝚢𝚜𝚞𝚒
-╰═════════════════⊷
+*╔═❖•ೋ° 𝙰𝙽𝙳𝚁𝙾𝙸𝙳  𝙱𝚄𝙶 ⚠️ °ೋ•❖═╗* 
+* ┃ 🐲 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙
+* ┃ 🐲 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙2
+* ┃ 🐲 𝙨𝚢𝚜𝚝𝚎𝚖𝚞𝚒𝚌𝚑
+* ┃ 🐲 𝙭𝚜𝚢𝚜𝚞𝚒
+࿇ ══━━━━✥🌹✥━━━━══ ࿇
 
-╭═══ 𝙸𝙾𝚂  𝙱𝚄𝙶 🐛 ═══⊷
-┃ 🐲 𝙭𝚒𝚘𝚜
-┃ 🐲 𝙭𝚒𝚘𝚜2
-╰═════════════════⊷
+*╔═══❖•ೋ° 𝙸𝙾𝚂  𝙱𝚄𝙶 🐛°ೋ•❖═══╗* 
+> ┃ 🐲 𝙭𝚒𝚘𝚜
+> ┃ 🐲 𝙭𝚒𝚘𝚜2
+࿇ ══━━━━✥🌹✥━━━━══ ࿇
 
-╭═══ 𝙶𝚁𝙾𝚄𝙿  𝙱𝚄𝙶 🦠 ═══⊷ 
-┃ 🐲 𝙭𝚐𝚌
-╰═════════════════⊷
+*╔═══❖•ೋ° 𝙶𝚁𝙾𝚄𝙿  𝙱𝚄𝙶 🦠 °ೋ•❖═══╗* 
+* ┃ 🐲 𝙭𝚐𝚌
+࿇ ══━━━━✥🌹✥━━━━══ ࿇
 
-╭═══ 𝙾𝚆𝙽𝙴𝚁  𝙼𝙴𝙽𝙐 🔐 ═══⊷ 
-┃ 🐲 ɢᴇᴛsᴇssɪᴏɴ
-┃ 🐲 ᴅᴇʟᴇᴛᴇssɪᴏɴ
-┃ 🐲 ᴘᴘ
-┃ 🐲 ᴊᴏɪɴ
-┃ 🐲 sʜᴜᴛᴅᴏᴡɴ  
-┃ 🐲 ʀᴇsᴛᴀʀᴛ
-┃ 🐲 ᴀᴜᴛᴏʀᴇᴀᴅ 
-┃ 🐲 ᴀᴜᴛᴏᴛʏᴘɪɴɢ 
-┃ 🐲 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅɪɴɢ 
-┃ 🐲 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅᴛʏᴘ 
-┃ 🐲 ᴀᴜᴛᴏsᴡᴠɪᴇᴡ 
-┃ 🐲 ᴍᴏᴅᴇ 
-┃ 🐲 ʙʟᴏᴄᴋ
-┃ 🐲 ᴜɴʙʟᴏᴄᴋ 
-┃ 🐲 ʙᴀᴄᴋᴜᴘ
-┃ 🐲 ɢᴇᴛᴄᴀsᴇ
-┃ 🐲 ᴀᴅᴅᴏᴡɴᴇʀ
-┃ 🐲 ᴅᴇʟᴏᴡɴᴇʀ
-┃ 🐲 ʙᴄɢᴄ
-╰═════════════════⊷
+*╔═❖•ೋ° 𝙾𝚆𝙽𝙴𝚁  𝙼𝙴𝙽𝙐 🔐 °ೋ•❖═╗*  
+> ┃ 🐲 ɢᴇᴛsᴇssɪᴏɴ
+> ┃ 🐲 ᴅᴇʟᴇᴛᴇssɪᴏɴ
+> ┃ 🐲 ᴘᴘ
+> ┃ 🐲 ᴊᴏɪɴ
+> ┃ 🐲 sʜᴜᴛᴅᴏᴡɴ  
+> ┃ 🐲 ʀᴇsᴛᴀʀᴛ
+> ┃ 🐲 ᴀᴜᴛᴏʀᴇᴀᴅ 
+> ┃ 🐲 ᴀᴜᴛᴏᴛʏᴘɪɴɢ 
+> ┃ 🐲 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅɪɴɢ 
+> ┃ 🐲 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅᴛʏᴘ 
+> ┃ 🐲 ᴀᴜᴛᴏsᴡᴠɪᴇᴡ 
+> ┃ 🐲 ᴍᴏᴅᴇ 
+> ┃ 🐲 ʙʟᴏᴄᴋ
+> ┃ 🐲 ᴜɴʙʟᴏᴄᴋ 
+> ┃ 🐲 ʙᴀᴄᴋᴜᴘ
+> ┃ 🐲 ɢᴇᴛᴄᴀsᴇ
+> ┃ 🐲 ᴀᴅᴅᴏᴡɴᴇʀ
+> ┃ 🐲 ᴅᴇʟᴏᴡɴᴇʀ
+> ┃ 🐲 ʙᴄɢᴄ
+࿇ ══━━━━✥🌹✥━━━━══ ࿇
 
-╭═══ 𝙶𝚁𝙾𝚄𝙿  𝙼𝙴𝙽𝚄 👪 ═══⊷
-┃ 🐲 ᴄʟᴏsᴇᴛɪᴍᴇ
-┃ 🐲 ᴏᴘᴇɴᴛɪᴍᴇ
-┃ 🐲 ᴋɪᴄᴋ
-┃ 🐲 ᴀᴅᴅ
-┃ 🐲 ᴘʀᴏᴍᴏᴛᴇ
-┃ 🐲 ᴅᴇᴍᴏᴛᴇ
-┃ 🐲 sᴇᴛᴅᴇsᴄ
-┃ 🐲 sᴇᴛᴘᴘɢᴄ
-┃ 🐲 ᴛᴀɢᴀʟʟ
-┃ 🐲 ʜɪᴅᴇᴛᴀɢ
-┃ 🐲 ᴛᴏᴛᴀɢ
-┃ 🐲 ɢʀᴏᴜᴘ 
-┃ 🐲 ᴇᴅɪᴛɪɴғᴏ
-┃ 🐲 ʟɪɴᴋɢᴄ
-┃ 🐲 ʀᴇᴠᴏᴋᴇ
-┃ 🐲 ʟɪsᴛᴏɴʟɪɴᴇ
-╰═════════════════⊷
+*╔═❖•ೋ° 𝙶𝚁𝙾𝚄𝙿  𝙼𝙴𝙽𝚄 👪 °ೋ•❖═╗*
+* ┃ 🐲 ᴄʟᴏsᴇᴛɪᴍᴇ
+* ┃ 🐲 ᴏᴘᴇɴᴛɪᴍᴇ
+* ┃ 🐲 ᴋɪᴄᴋ 
+* ┃ 🐲 ᴀᴅᴅ
+* ┃ 🐲 ᴘʀᴏᴍᴏᴛᴇ
+* ┃ 🐲 ᴅᴇᴍᴏᴛᴇ
+* ┃ 🐲 sᴇᴛᴅᴇsᴄ
+* ┃ 🐲 sᴇᴛᴘᴘɢᴄ
+* ┃ 🐲 ᴛᴀɢᴀʟʟ
+* ┃ 🐲 ʜɪᴅᴇᴛᴀɢ
+* ┃ 🐲 ᴛᴏᴛᴀɢ
+* ┃ 🐲 ɢʀᴏᴜᴘ 
+* ┃ 🐲 ᴇᴅɪᴛɪɴғᴏ
+* ┃ 🐲 ʟɪɴᴋɢᴄ
+* ┃ 🐲 ʀᴇᴠᴏᴋᴇ
+* ┃ 🐲 ʟɪsᴛᴏɴʟɪɴᴇ
+࿇ ══━━━━✥🌹✥━━━━══ ࿇
 
-╭═══ 𝙈𝒶𝒾𝓃  𝙼𝙴𝙽𝙐 ❤️ ═══⊷
-┃ 🐲 ᴍᴇɴᴜ
-┃ 🐲 ʙᴜʏᴘʀᴇᴍɪᴜᴍ
-┃ 🐲 ʀᴜɴᴛɪᴍᴇ
-┃ 🐲 sᴄʀɪᴘᴛ
-┃ 🐲 ᴅᴏɴᴀᴛᴇ
-┃ 🐲 ᴏᴡɴᴇʀ
-┃ 🐲 ᴊᴇᴀɴᴘᴀʀᴋᴇʀ
-╰═════════════════⊷
+*╔═❖•ೋ° 𝙈𝒶𝒾𝓃  𝙼𝙴𝙽𝙐 ❤️ °ೋ•❖══╗*
+> ┃ 🐲 ᴍᴇɴᴜ
+> ┃ 🐲 ʙᴜʏᴘʀᴇᴍɪᴜᴍ
+> ┃ 🐲 ʀᴜɴᴛɪᴍᴇ
+> ┃ 🐲 sᴄʀɪᴘᴛ
+> ┃ 🐲 ᴅᴏɴᴀᴛᴇ
+> ┃ 🐲 ᴏᴡɴᴇʀ
+> ┃ 🐲 ᴊᴇᴀɴᴘᴀʀᴋᴇʀ
+࿇ ══━━━━✥🌹✥━━━━══ ࿇
 
-╭═══ 𝙲𝙾𝙽𝙑𝙴𝚁𝚃 🔄 ═══⊷
-┃ 🐲 sᴛɪᴄᴋᴇʀ
-┃ 🐲 sᴍᴇᴍᴇ
-┃ 🐲 ᴛᴀᴋᴇ
-┃ 🐲 ᴛᴏɪᴍᴀɢᴇ
-┃ 🐲 ᴛᴏᴠɪᴅᴇᴏ
-┃ 🐲 ᴛᴏᴀᴜᴅɪᴏ
-┃ 🐲 ᴛᴏᴍᴘ3
-┃ 🐲 ᴛᴏᴠɴ
-┃ 🐲 ᴛᴏɢɪғ
-┃ 🐲 ᴛᴏᴜʀʟ
-┃ 🐲 ᴛᴏǫʀ
-┃ 🐲 ᴛᴏᴠɪᴇᴡᴏɴᴄᴇ
-┃ 🐲 ғʟɪᴘᴛᴇxᴛ
-┃ 🐲 ᴇᴍᴏᴊɪᴍɪx
-╰═════════════════⊷
+*╔═══❖•ೋ° 𝙲𝙾𝙽𝙑𝙴𝚁𝚃 🔄 °ೋ•❖══╗*
+> ┃ 🐲 sᴛɪᴄᴋᴇʀ
+> ┃ 🐲 sᴍᴇᴍᴇ
+> ┃ 🐲 ᴛᴀᴋᴇ
+> ┃ 🐲 ᴛᴏɪᴍᴀɢᴇ
+> ┃ 🐲 ᴛᴏᴠɪᴅᴇᴏ
+> ┃ 🐲 ᴛᴏᴀᴜᴅɪᴏ
+> ┃ 🐲 ᴛᴏᴍᴘ3
+* ┃ 🐲 ᴛᴏᴠɴ
+* ┃ 🐲 ᴛᴏɢɪғ
+* ┃ 🐲 ᴛᴏᴜʀʟ
+* ┃ 🐲 ᴛᴏǫʀ
+* ┃ 🐲 ᴛᴏᴠɪᴇᴡᴏɴᴄᴇ
+* ┃ 🐲 ғʟɪᴘᴛᴇxᴛ
+* ┃ 🐲 ᴇᴍᴏᴊɪᴍɪx
+࿇ ══━━━━✥🌹✥━━━━══ ࿇
 
-╭═══ 𝘼𝕌𝒯𝒪 𝙱𝙶𝙼, 📢 ═══⊷
-┃ 🐲 ᴀᴅᴅvɪᴅᴇᴏ
-┃ 🐲 ᴀᴅᴅ𝒾ᴍᴀɢᴇ
-┃ 🐲 ᴀᴅᴅsᴛɪᴄᴋᴇʀ
-┃ 🐲 ᴀᴅᴅvɴ
-┃ 🐲 ᴀᴅᴅᴢɪᴘ
-┃ 🐲 ᴀᴅᴅᴀ𝓅𝓀
-┃ 🐲 ᴀᴅᴅᴘᴅ
-┃ 🐲 ᴅᴇʟvɪᴅᴇᴏ
-┃ 🐲 ᴅᴇʟ𝒾ᴍᴀɢᴇ
-┃ 🐲 ᴅᴇʟsᴛɪᴄᴋᴇʀ
-┃ 🐲 ᴅᴇʟvɴ
-┃ 🐲 ᴅᴇʟᴢɪᴘ
-┃ 🐲 ᴅᴇʟᴀ𝓅𝓀
-┃ 🐲 ᴅᴇʟᴘᴅ
-┃ 🐲 ʟɪsᴛvɪᴅᴇᴏ
-┃ 🐲 ʟɪsᴛ𝒾ᴍᴀɢᴇ
-┃ 🐲 ʟɪsᴛsᴛɪᴄᴋᴇʀ
-┃ 🐲 ʟɪsᴛvɴ
-┃ 🐲 ʟɪsᴛᴢɪᴘ
-┃ 🐲 ʟɪsᴛᴀ𝓅𝓀
-┃ 🐲 ʟɪsᴛᴘᴅ
-╰═════════════════⊷
+*╔═❖•ೋ°   𝘼𝕌𝒯𝒪 𝙱𝙶𝙼, 📢 °ೋ•❖═╗*
+> ┃ 🐲 ᴀᴅᴅvɪᴅᴇᴏ
+> ┃ 🐲 ᴀᴅᴅ𝒾ᴍᴀɢᴇ
+> ┃ 🐲 ᴀᴅᴅsᴛɪᴄᴋᴇʀ
+> ┃ 🐲 ᴀᴅᴅvɴ
+> ┃ 🐲 ᴀᴅᴅᴢɪᴘ
+* ┃ 🐲 ᴀᴅᴅᴀ𝓅𝓀
+* ┃ 🐲 ᴀᴅᴅᴘᴅ
+* ┃ 🐲 ᴅᴇʟvɪᴅᴇᴏ
+* ┃ 🐲 ᴅᴇʟ𝒾ᴍᴀɢᴇ
+* ┃ 🐲 ᴅᴇʟsᴛɪᴄᴋᴇʀ
+> ┃ 🐲 ᴅᴇʟvɴ
+> ┃ 🐲 ᴅᴇʟᴢɪᴘ
+> ┃ 🐲 ᴅᴇʟᴀ𝓅𝓀
+> ┃ 🐲 ᴅᴇʟᴘᴅ
+* ┃ 🐲 ʟɪsᴛvɪᴅᴇᴏ
+* ┃ 🐲 ʟɪsᴛ𝒾ᴍᴀɢᴇ
+* ┃ 🐲 ʟɪsᴛsᴛɪᴄᴋᴇʀ
+* ┃ 🐲 ʟɪsᴛvɴ
+> ┃ 🐲 ʟɪsᴛᴢɪᴘ
+> ┃ 🐲 ʟɪsᴛᴀ𝓅𝓀
+> ┃ 🐲 ʟɪsᴛᴘᴅ
+࿇ ══━━━━✥🌹✥━━━━══ ࿇
 
-╭═══ 𝙳𝙾𝚆𝙽𝙇𝙾𝒶𝒹 📥 ═══⊷
-┃ 🐲 ᴘ𝓵𝒶ʏ
-┃ 🐲 ʏᴛᴍ𝓃
-┃ 🐲 ʏᴛᴍ𝓅4
-┃ 🐲 sᴏᴜɴᴅ1 - sᴏᴜɴᴅ161
-╰═════════════════⊷
+*╔══❖•ೋ° 𝙳𝙾𝚆𝙽𝙇𝙾𝒶𝒹 📥 °ೋ•❖═╗*
+* ┃ 🐲 ᴘ𝓵𝒶ʏ
+* ┃ 🐲 ʏᴛᴍ𝓃
+* ┃ 🐲 ʏᴛᴍ𝓅4
+* ┃ 🐲 sᴏᴜɴᴅ1 - sᴏᴜɴᴅ161
+࿇ ══━━━━✥🌹✥━━━━══ ࿇
 
-> 🌹𝐌𝐑. 𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹 ©`
+> 🌹𝐌𝐑. 𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹 ✓`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         text: xeonmenuoh,
@@ -2422,7 +2421,7 @@ if (typemenu === 'v1') {
                             externalAdReply: {
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
+                                thumbnailUrl: 'https://telegra.ph/file/bba6cce75b7d6bf42e58a.jpg',
                                 sourceUrl: link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2440,7 +2439,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2c8a210bf1748e32aff84.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/bba6cce75b7d6bf42e58a.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
