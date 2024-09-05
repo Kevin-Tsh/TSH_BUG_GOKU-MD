@@ -7,6 +7,9 @@
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
+**Ce référentiel est repris depuis celui de `@Jeanparker100`**
+
+
 ### La partie session id ou code paire n'est pas encore prête. merci de modifier (Database et settings) puis téléchargez ça en zip et deployez sur panel. rien de compliqué !!
 
 ### 1. <a href="https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD/fork"><img title="WEB" src="https://img.shields.io/badge/FORK GOKU-WEB?color=black&style=for-the-badge&logo=stackshare"></a>
