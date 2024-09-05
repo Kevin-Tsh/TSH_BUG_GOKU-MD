@@ -1,6 +1,6 @@
 # 𝑻𝑺𝑯_𝑩𝑼𝑮_𝑮𝑶𝑲𝑼-𝑴𝑫
 
-**Merci de fork le repo pour plus d'encouragements**🌹🌹
+**Merci de fork le repo pour plus d'encouragements**🌹
 
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
@@ -19,7 +19,7 @@
 ### 1. <a href="https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD/fork"><img title="WEB" src="https://img.shields.io/badge/FORK GOKU-WEB?color=black&style=for-the-badge&logo=stackshare"></a>
 ### 2. <a href="https://parky-web-1.onrender.com"><img src="https://img.shields.io/badge/PAIR_CODE-green" alt="Clique ici pour avoir le Pair-Code" width="90"></a>
 
-### 4. <a href='https://panel.solarhosting.cc' target="_blank"><img alt='Deployer sur Panel' src='https://img.shields.io/badge/-DEPLOYER SUR PANEL-pink?style=for-the-badge&logo=solar&logoColor=white'/></a>
+### 3. <a href='https://panel.solarhosting.cc' target="_blank"><img alt='Deployer sur Panel' src='https://img.shields.io/badge/-DEPLOYER SUR PANEL-pink?style=for-the-badge&logo=solar&logoColor=white'/></a>
 
 ## Pour regarder des tutoriels.
 * [![YOUTUBE](https://img.shields.io/badge/COMMENT-DEPLOYER-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@alvinjlaste...13)
@@ -147,5 +147,5 @@ npm i -g forever && forever index.js && forever save && forever logs
 <p align="center">
 <img alt="Development" width="250" src="https://media2.giphy.com/media/W9tBvzTXkQopi/giphy.gif?cid=6c09b952xu6syi1fyqfyc04wcfk0qvqe8fd7sop136zxfjyn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" /> </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
+## By 🌹Mr Kévin Tsh🌹
  
