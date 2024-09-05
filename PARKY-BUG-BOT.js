@@ -2264,7 +2264,8 @@ case "xsysui": {
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
     "*LE Rasengan A ETE ENVOYÉ AVEC SUCCÈS 🌀 A @" + whatsappNumber.split('@')[0] + 
-    " Using " + command + "* \n\n*Faites une pause de 2 minutes pour que le bot ne soit pas banni.*, [whatsappNumber]
+     " Using " + command + "* \n\n*Pause 2 minutes so that the bot is not banned.*", 
+    [whatsappNumber]
   );
 }
 break;
@@ -2284,7 +2285,7 @@ break
             case 'alive':
             case 'Goku':
             case 'allmenu':
-                let xeonmenuoh = `____( ${botname} )_____________
+                let xeonmenuoh = `🌹 ${botname} 🌹
 ┃🍷╭──────────────
 ┃🍷│ Prefix : [ ]
 ┃🍷│ User :  ${pushname}
