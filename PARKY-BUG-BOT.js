@@ -1213,7 +1213,7 @@ senddocu(buffer)
                 respon = `
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
-🐲 *GOKUO* » Info Server
+🐲 *GOKU* 🐲» Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 _NodeJS Memory Usaage_
@@ -1265,7 +1265,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'runtime':
-                let runtimetext = `Bots Have Been Running For ${runtime(process.uptime())}`
+                let runtimetext = `GOKU-MD AND BOTS HAVE BEEN RUNNING FOR ${runtime(process.uptime())}`
                 XeonBotInc.sendMessage(m.chat, {
                     text: runtimetext,
                     contextInfo: {
@@ -2413,8 +2413,8 @@ break
 * ┃ 🐲 ʏᴛᴍ𝓅4
 * ┃ 🐲 sᴏᴜɴᴅ1 - sᴏᴜɴᴅ161
 ࿇ ══━━━━✥🌹✥━━━━══ ࿇
-
-> 🌹𝐌𝐑. 𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹 ✓`
+*Illustré par*
+> 🌹𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹 ✓`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         text: xeonmenuoh,
