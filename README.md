@@ -1,4 +1,7 @@
 # 𝑻𝑺𝑯_𝑩𝑼𝑮_𝑮𝑶𝑲𝑼-𝑴𝑫
+
+**Merci de fork le repo pour plus d'encouragements**🌹🌹
+
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
 <img src="https://telegra.ph/file/2c8a210bf1748e32aff84.jpg"/> 
