@@ -14,7 +14,9 @@
 
 
 ### La partie session id ou code paire n'est pas encore prête. merci de modifier (Database et settings) puis téléchargez ça en zip et deployez sur panel. rien de compliqué !!
-## ⚠️ VEUILLEZ SUPPRIMER LE DOSSIER "SESSION" DEPUIS PANEL,PUIS DÉPLOYEZ. IL CONTIENT UNE ERREUR. cela va être résolu.!
+## ⚠️ DATABASE ET SETTINGS, POUR VOS INFORMATIONS. NUMÉRO ET NOM. 
+
+## DÉPLOIEMENT VIA PANEL.
 
 ### 1. <a href="https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD/fork"><img title="WEB" src="https://img.shields.io/badge/FORK GOKU-WEB?color=black&style=for-the-badge&logo=stackshare"></a>
 ### 2. <a href="https://parky-web-1.onrender.com"><img src="https://img.shields.io/badge/PAIR_CODE-green" alt="Clique ici pour avoir le Pair-Code" width="90"></a>
