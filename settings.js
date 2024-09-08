@@ -19,7 +19,7 @@ global.location = "Cong Kinshasa, Haut Katanga, Lubumbashi"
 
 global.ownernumber = '243891716833'  //creator number
 global.ownername = '🌹𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹' //owner name
-global.botname = '🐲𝑻𝑺𝑯_𝑩𝑼𝑮_𝑮𝑶𝑲𝑼-𝑴𝑫🐲' //name of the bot
+global.botname = '🐲⸢𝐆𝐎𝐊𝐔-𝐌𝐃⸥🐲' //name of the bot
 
 //sticker details
 global.packname = '¹⁴³ ᴬˡᵉᵐᵃᵖ 🐲🌹'
