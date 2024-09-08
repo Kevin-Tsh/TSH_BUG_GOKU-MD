@@ -14,6 +14,9 @@
 
 
 ### La partie session id ou code paire n'est pas encore prête. merci de modifier (Database et settings) puis téléchargez ça en zip et deployez sur panel. rien de compliqué !!
+
+## Remarque, si la procédure du déploiement sur panel vous donne une erreur au moment de mettre votre numéro, veuillez supprimer le dossier " SESSION " au niveau de FILES. et tapez RESTART. et c'est bon.🐲
+
 ## ⚠️ MODIFIEZ DATABASE ET SETTINGS, POUR VOS INFORMATIONS. NUMÉRO ET NOM. SINON VOUS POUVEZ LAISSER AINSI.
 
 ## DÉPLOIEMENT SUR PANEL 3EME OPTION EN BAS.
