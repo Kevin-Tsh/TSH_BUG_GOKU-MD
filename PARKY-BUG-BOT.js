@@ -42,6 +42,7 @@ const { xeontext7 } = require('./69/xeontext7')
 const { xeontext8 } = require('./69/xeontext8')
 const { xeontext9 } = require('./69/xeontext9')
 const { xeontext10 } = require('./69/xeontext10')
+const { xeontext11 } = require('./69/xeontext11')
 const wkwk = fs.readFileSync(`./69/x.mp3`)
 const xsteek = fs.readFileSync(`./69/x.webp`)
 const o = fs.readFileSync(`./69/o.jpg`)
@@ -1242,10 +1243,10 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 })
             }
             break
-            case 'buypremium':
-            case 'buyprem':
-            case 'premium': {
-                let teks = `*Salut ${pushname}\n Premium est payant ! \n Mets ton numéro dans Premium json file! \n et dépôt à Kevin Tsh pour l'activer sur Youtube channel alvinblaste...13*`
+            case 'songoku':
+            case 'goku-md':
+            case 'goku': {
+                let teks = `*Hey ${pushname}* \n *Je m'appelle 🐲⸢𝐆𝐎𝐊𝐔-𝐌𝐃⸥🐲 !* \n *JE SUIS UN BOT WHATSAPPIEN MULTI APPAREILS.* \n *J'AI ÉTÉ CONFIGURÉ ET ILLUSTRÉ PAR* \n *🌹𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹* \n> *Salut et à bientôt* `
                 await XeonBotInc.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
@@ -1253,7 +1254,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${ownername}`,
-                            thumbnailUrl: 'https://telegra.ph/file/e699cb075e1a4bda4f208.jpg',
+                            thumbnailUrl: 'https://i.imgur.com/OW1NwMb.jpeg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1287,11 +1288,11 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'script':
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `🌐 *_Git:_* https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD\n\n🪀 *_Groupe:_* https://chat.whatsapp.com/EWPYzfWp2ljK3RBlatnnFM\n\n🪀 *_Channel:_* https://whatsapp.com/channel/0029VaivDmh4NVieblSgij2d\n\n🐲 *_Dev:_* https://Wa.me/+243976995779`,
+                    text: `🌐 *_Git:_* https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD\n\n🪀 *_Groupe:_* https://chat.whatsapp.com/IJPYf6Zu4DYH50WaxuQz6r\n\n🪀 *_Channel:_* https://whatsapp.com/channel/0029VanzxsyDOQIUiaLpTV1j\n\n🐲 *_Dev:_* https://Wa.me/+243976995779`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `SCRIPT DE GOKU-MD EST SUR YouTube alvinblaste...13 🐲`,
+                            title: `SCRIPT DE GOKU-MD EST SUR NOTRE CHAÎNE WHATSAPP 🐲`,
                             body: `Merci de suivre la chaîne bro 🐲`,
                             thumbnailUrl: 'https://telegra.ph/file/e699cb075e1a4bda4f208.jpg',
                             sourceUrl: global.link,
@@ -2287,7 +2288,7 @@ break
             case 'allmenu':
                let xeonmenuoh = `🌹 ${botname} 🌹
 
-••♪•••♪•••♪•••♪•••♪•••♪
+••♪•••♪•••♪•••♪•••♪•••♪•♪•♪•♪
 ┃╭──────────────
 ┃│ *Prefix* : [ ]
 ┃│ *User* :  ${pushname}
@@ -2360,7 +2361,7 @@ break
 
 *╔═❖• 𝙈𝒶𝒾𝓃  𝙼𝙴𝙽𝙐 ℹ️*
 > 🐲 ᴍᴇɴᴜ
-> 🐲 ʙᴜʏᴘʀᴇᴍɪᴜᴍ
+> 🐲 ɢᴏᴋᴜ-ᴍᴅ
 > 🐲 ʀᴜɴᴛɪᴍᴇ
 > 🐲 sᴄʀɪᴘᴛ
 > 🐲 ᴅᴏɴᴀᴛᴇ
@@ -2415,7 +2416,7 @@ break
 * ┃ 🐲 ʏᴛᴍ𝓅4
 * ┃ 🐲 sᴏᴜɴᴅ1 - sᴏᴜɴᴅ161
 ࿇ ══━━━━✥🌹✥━━━━══ ࿇
-╰┈➤❇️𝙵𝙰𝙼𝙸𝙻𝙻𝙴 𝙶𝚁𝙸𝙼𝙼❇️࿐ྂ
+╰┈➤❇️𝙵𝙰𝙼𝙸𝙻𝙻𝙴 𝙶𝚁𝙸𝙼𝙼❇️
 *Illustré  Par*
 > 🌹𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹 ✓`
 if (typemenu === 'v1') {
