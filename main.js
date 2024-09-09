@@ -32,7 +32,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "22898133388"
+let phoneNumber = "243891716833"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -82,14 +82,14 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +22898133388 : `)))
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 🐲\nFor example: +243891716833 : `)))
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +22898133388")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +243891716833")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +22898133388 : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 🐲\nFor example: +243891716833 : `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
@@ -176,11 +176,11 @@ XeonBotInc.ev.on("connection.update",async  (s) => {
 			await delay(1999)
             console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`🐲𝑻𝑺𝑯_𝑩𝑼𝑮_𝑮𝑶𝑲𝑼-𝑴𝑫🐲`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: Jean-parker-tech`))
-            console.log(chalk.magenta(`${themeemoji} GITHUB: Jeanparker100`))
-            console.log(chalk.magenta(`${themeemoji} INSTAGRAM: @its_jeanparker `))
-            console.log(chalk.magenta(`${themeemoji} WA NUMBER: 22898133388`))
-            console.log(chalk.magenta(`${themeemoji} CREDIT: 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛\n`))
+	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: alvinblaste...13`))
+            console.log(chalk.magenta(`${themeemoji} GITHUB: Kevin-Tsh`))
+            console.log(chalk.magenta(`${themeemoji} INSTAGRAM: none `))
+            console.log(chalk.magenta(`${themeemoji} WA NUMBER: 243891716833`))
+            console.log(chalk.magenta(`${themeemoji} CREDIT: Kevin Tsh\n`))
         }
         if (
             connection === "close" &&
