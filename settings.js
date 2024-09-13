@@ -22,12 +22,8 @@ global.ownername = '🌹TOMAS RIPLEY🌹' //owner name
 global.botname = '🐲⸢ROI SINGE 🐲' //name of the bot
 
 //sticker details
-patch1
-global.packname = '𝚂𝚊𝚒𝚗𝚝⚛︎É𝚐𝚊𝚕𝚎⚔︎𝙳𝚎𝚜⚡︎𝙲𝚒𝚎𝚞𝚡'
-global.author = ' TOMAS RIPLEY'
 global.packname = '¹⁴³ ᴬˡᵉᵐᵃᵖ 🐲🌹'
 global.author = '𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇'
-main
 
 //console view/theme
 global.themeemoji = '☠️'
