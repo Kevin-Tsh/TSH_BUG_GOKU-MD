@@ -130,7 +130,7 @@ npm i -g forever && forever index.js && forever save && forever logs
 - [Télécharger Libwebp](https://developers.google.com/speed/webp/download)
 
 ```cmd
-> git https://github.com/Jeanparker100/PARKY-BUG-BOT
+> git https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD
 ```
 ```
 > cd TSH_BUG_GOKU-MD
