@@ -23,14 +23,14 @@ global.botname = '🐲⸢𝐆𝐎𝐊𝐔-𝐌𝐃⸥🐲' //name of the bot
 
 //sticker details
 global.packname = '¹⁴³ ᴬˡᵉᵐᵃᵖ 🐲🌹'
-global.author = 'MR KEVIN TSH'
+global.author = '𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇'
 
 //console view/theme
 global.themeemoji = '🌹'
 global.wm = "MR KEVIN TSH in©"
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VanzxsyDOQIUiaLpTV1j'
+global.link = 'https://chat.whatsapp.com/IJPYf6Zu4DYH50WaxuQz6r'
 
 //custom prefix
 global.prefa = ['','!','.','#','&']
