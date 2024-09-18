@@ -1288,7 +1288,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'script':
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `🌐 *_Git:_* https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD\n\n🪀 *_Groupe:_* https://chat.whatsapp.com/IJPYf6Zu4DYH50WaxuQz6r\n\n🪀 *_Channel:_* https://whatsapp.com/channel/0029VanzxsyDOQIUiaLpTV1j\n\n🐲 *_Dev:_* https://Wa.me/+243976995779`,
+                    text: `🌐 *_Git:_* https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD\n\n🪀 *_Groupe:_* https://chat.whatsapp.com/IJPYf6Zu4DYH50WaxuQz6r\n\n🪀 *_Channel:_* https://whatsapp.com/channel/0029VajjpHoGZNCsyVLRRk1f\n\n🐲 *_Dev:_* https://Wa.me/+243976995779`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
