@@ -30,7 +30,7 @@ global.themeemoji = '🌹'
 global.wm = "MR KEVIN TSH in©"
 
 //theme link
-global.link = 'https://chat.whatsapp.com/IJPYf6Zu4DYH50WaxuQz6r'
+global.link = 'https://whatsapp.com/channel/0029VajjpHoGZNCsyVLRRk1f'
 
 //custom prefix
 global.prefa = ['','!','.','#','&']
