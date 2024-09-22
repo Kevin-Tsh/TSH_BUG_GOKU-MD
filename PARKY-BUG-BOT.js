@@ -1137,9 +1137,9 @@ senddocu(buffer)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
                 if (args[0] === 'close') {
-                    await XeonBotInc.groupSettingUpdate(m.chat, 'announcement').then((res) => replygcxeon(`Success In Closing The Group ðŸ•Šï¸`)).catch((err) => replygcxeon(json(err)))
+                    await XeonBotInc.groupSettingUpdate(m.chat, 'announcement').then((res) => replygcxeon(`*Groupe fermé avec succès* ✅¸`)).catch((err) => replygcxeon(json(err)))
                 } else if (args[0] === 'open') {
-                    await XeonBotInc.groupSettingUpdate(m.chat, 'not_announcement').then((res) => replygcxeon(`Success In Opening The Group ðŸ•Šï¸`)).catch((err) => replygcxeon(json(err)))
+                    await XeonBotInc.groupSettingUpdate(m.chat, 'not_announcement').then((res) => replygcxeon(`*Groupe ouvert avec succès* ✅¸`)).catch((err) => replygcxeon(json(err)))
                 } else {
                     replygcxeon(`Mode ${command}\n\n\nType ${prefix + command}open/close`)
                 }
@@ -2286,8 +2286,8 @@ break
             case 'alive':
             case 'Goku':
             case 'allmenu':
-                let xeonmenuoh = `╔─〘 ${botname} 〙─╗
-╔┅┅┅┅┅═══════┅┅┅┅┅❁
+                let xeonmenuoh = `╔〘 ${botname} 〙╗
+╔┅┅┅┅┅═══════┅┅┅┅𖣐
 ┃╭═──────────═╮
 ┃║ *Prefix* : [ ]
 ║║ *User* :  ${pushname}
@@ -2298,29 +2298,29 @@ break
 ║│ *Plugins : 250*
 ┃║ *Ram : 64 GB*
 ║║ *Alive* : ${runtime(process.uptime())}
-┃╰┅┅┅┅┅┅┅┅┅┅┅┅┅❂
-╚┈➤✰𝙵𝙰𝙼𝙸𝙻𝙻𝙴 𝙶𝚁𝙸𝙼𝙼✰
+┃╰┅┅┅┅┅┅┅┅┅┅┅┅┅☚
+╚┈➤✰𝙵𝙰𝙼𝙸𝙻𝙻𝙴 𝙶𝚁𝙸𝙼𝙼⭐
 
-    ╭═══════════════❁
+    ╭══════════════𖣐
     ┊ ➥𝐴𝑁𝐷𝑅𝑂𝐼𝐷 𝐵𝑈𝐺✰
     ║
     ┊   ❐𝗫𝗺𝑜𝑟𝑠𝑢𝑟𝑒-𝑑𝑢-𝑠𝑜𝑙𝑒𝑖𝑙
     ║   ❐𝑋𝑎𝑛𝑑𝑟𝑜𝑖𝑑𝟮
     ┊   ❐𝑆𝑦𝑠𝑡𝑒𝑚𝑢𝑖𝑐ℎ
     ║    ❐𝑋𝑠𝑦𝑠𝑢𝑖
-    ╰┅┅┅┅┅┅┅┅┅┅❂
-    ╭═══════════════❁
+    ╰┅┅┅┅┅┅┅┅┅┅☚
+    ╭══════════════𖣐
     ┊ ➥𝐼𝑂𝑆 𝐵𝑈𝐺✰
     ║
     ┊  ❐𝗫𝐾𝑎𝑚𝑒́ℎ𝑎𝑚𝑒́ℎ𝑎
     ║  ❐𝑋𝑖𝑜𝑠𝟮
-    ╰┅┅┅┅┅┅┅┅┅┅❂
-    ╭═══════════════❁
+    ╰┅┅┅┅┅┅┅┅┅┅☚
+    ╭══════════════𖣐
     ┊ ➥𝐺𝑅𝑂𝑈𝑃𝐸 𝐵𝑈𝐺✰
     ║
     ┊  ❐𝗫𝑂𝑟𝑏𝑒-𝑑'𝑒𝑛𝑒𝑟𝑔𝑖𝑒
-    ╰┅┅┅┅┅┅┅┅┅┅❂
-╭══════════════════❁
+    ╰┅┅┅┅┅┅┅┅┅┅☚
+╭════════════════𖣐
 ┊ ➥𝑂𝑊𝑁𝐸𝑅 𝑀𝐸𝑁𝑈✰
 ║
 ┊   ❐𝐺𝑒𝑡𝑠𝑒𝑠𝑠𝑖𝑜𝑛
@@ -2342,8 +2342,8 @@ break
 ┊   ❐𝐴𝑑𝑑𝑜𝑤𝑛𝑒𝑟
 ║   ❐𝐷𝑒𝑙𝑜𝑤𝑛𝑒𝑟
 ┊   ❐𝐵𝑐𝑔𝑐
-╰━━━━━━━━━━━━━━━━❂
-╭══════════════════❁
+╰━━━━━━━━━━━━━━━☚
+╭════════════════𖣐
 ┊ ➥𝐆𝐑𝐎𝐔𝐏𝐄 𝐌𝐄𝐍𝐔✰
 ║
 ┊   ❐𝐂𝐥𝐨𝐬𝐞𝐭𝐢𝐦𝐞
@@ -2362,8 +2362,8 @@ break
 ║   ❐𝐋𝐢𝐧𝐤𝐠𝐜
 ┊   ❐𝐑𝐞𝐯𝐨𝐤𝐞
 ║   ❐𝐋𝐢𝐬𝐭𝐨𝐧𝐥𝐢𝐧𝐞
-╰━━━━━━━━━━━━━━━━━❂
-   ╭════════════════❁
+╰━━━━━━━━━━━━━━━━☚
+   ╭═══════════════𖣐
    ┊ ➥𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨✰
    ║
    ┊   ❐𝗠𝗲𝗻𝘂
@@ -2372,8 +2372,8 @@ break
    ║   ❐𝗦𝗰𝗿𝗶𝗽𝘁
    ┊   ❐𝗗𝗼𝗻𝗮𝘁𝗲
    ║   ❐𝗢𝘄𝗻𝗲𝗿
-   ╰┅┅┅┅┅┅┅┅┅┅❂
-╭══════════════════❁
+   ╰┅┅┅┅┅┅┅┅┅┅☚
+╭════════════════𖣐
 ┊ ➥𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗠𝗘𝗡𝗨✰
 ║
 ┊   ❐𝘀𝘁𝗶𝗰𝗸𝗲𝗿
@@ -2390,8 +2390,8 @@ break
 ║   ❐𝗧𝗼𝘃𝗶𝗲𝘄𝗼𝗻𝗰𝗲
 ┊   ❐𝗙𝗹𝗶𝗽𝘁𝗲𝘅𝘁
 ║   ❐𝗘𝗺𝗼𝗷𝗶𝗺𝗶𝘅
-╰━━━━━━━━━━━━━━━━━❂
-╭══════════════════❁
+╰━━━━━━━━━━━━━━━━☚
+╭════════════════𖣐
 ┊ ➥𝐎𝐓𝐇𝐄𝐑 𝐌𝐄𝐍𝐔✰
 ║
 ┊   ❐𝐀𝐝𝐝𝐯𝐢𝐝𝐞𝐨
@@ -2414,15 +2414,15 @@ break
 ║   ❐𝐋𝐢𝐬𝐭𝐳𝐢𝐩
 ┊   ❐𝐋𝐢𝐬𝐭𝐚𝐩𝐤
 ║   ❐𝐋𝐢𝐬𝐭𝐩𝐝
-╰━━━━━━━━━━━━━━━❂
-  ╭════════════════❁
+╰━━━━━━━━━━━━━━━☚
+  ╭═══════════════𖣐
   ┊ ➥𝐷𝑂𝑊𝑁 𝑀𝐸𝑁𝑈✰
   ║
   ┊   ❐𝑃𝐿𝐴𝑌
   ║   ❐𝑌𝑇𝑀𝑁
   ┊   ❐𝑌𝑇𝑀𝑃4
   ║   ❐𝑆𝑂𝑈𝑁𝐷1-𝑆𝑂𝑈𝑁𝐷161
-  ╰┅┅┅┅┅┅┅┅┅┅┅┅❂
+  ╰┅┅┅┅┅┅┅┅┅┅┅┅☚
   *☛Illustré  Par☚*
 > 🌹𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹 ✓`
 if (typemenu === 'v1') {
