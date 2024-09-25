@@ -534,7 +534,7 @@ await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key });
         }
         
         if (autobio) {
-            XeonBotInc.updateProfileStatus(`𝙱𝚘𝚝 𝚎𝚗 𝚕𝚒𝚐𝚗𝚎 𝟸𝟺𝚑/𝟸𝟺 𝚎𝚝 𝟽𝚓/𝟽 𝚙𝚊𝚛 𝙹𝚎𝚊𝚗 𝙿𝚊𝚛𝚔𝚎𝚛 𝙱𝚘𝚝 𝙾𝚠𝚗𝚎𝚛 : ${ownername} 𝙿𝚘𝚞𝚛 𝚙𝚕𝚞𝚜 𝚍𝚎 𝚑𝚊𝚌𝚔𝚜, 𝚛𝚎𝚌𝚑𝚎𝚛𝚌𝚑𝚎𝚣 𝚜𝚞𝚛 𝚈𝚘𝚞𝚝𝚞𝚋𝚎 𝙹𝚎𝚊𝚗-𝚙𝚊𝚛𝚔𝚎𝚛-𝚝𝚎𝚌𝚑`).catch(_ => _)
+            XeonBotInc.updateProfileStatus(`𝙱𝚘𝚝 𝚎𝚗 𝚕𝚒𝚐𝚗𝚎 𝟸𝟺𝚑/𝟸𝟺 𝚎𝚝 𝟽𝚓/𝟽 𝚙𝚊𝚛 MR KÉVIN TSH  𝙱𝚘𝚝 𝙾𝚠𝚗𝚎𝚛 : ${ownername} 𝙿𝚘𝚞𝚛 𝚙𝚕𝚞𝚜 𝚍𝚎 𝚑𝚊𝚌𝚔𝚜, 𝚛𝚎𝚌𝚑𝚎𝚛𝚌𝚑𝚎𝚣 𝚜𝚞𝚛 𝚈𝚘𝚞𝚝𝚞𝚋𝚎 alvinblaste...13`).catch(_ => _)
         }
         if (m.sender.startsWith('92') && global.anti92 === true) {
             return XeonBotInc.updateBlockStatus(m.sender, 'block')
@@ -1097,9 +1097,9 @@ senddocu(buffer)
                 if (!m.isGroup) return replygcxeon(mess.group)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
-                let teks = `*👨‍👩‍👧‍👦🐲 Tag All*
+                let teks = `*👨‍👩‍👧‍👦🐲 🇹‌🇦‌🇬‌ 🇦‌🇱‌🇱‌*
  
-                 👻¸🗨️ *Message : ${q ? q : ''}*\n\n`
+                 👻¸🗨️ *🇲‌🇪‌🇸‌🇸‌🇦‌🇬‌🇪‌  : ${q ? q : ''}*\n\n`
                 for (let mem of participants) {
                     teks += `🐲 @${mem.id.split('@')[0]}\n`
                 }
@@ -1137,9 +1137,9 @@ senddocu(buffer)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
                 if (args[0] === 'close') {
-                    await XeonBotInc.groupSettingUpdate(m.chat, 'announcement').then((res) => replygcxeon(`*Groupe fermé avec succès* ✅¸`)).catch((err) => replygcxeon(json(err)))
+                    await XeonBotInc.groupSettingUpdate(m.chat, 'announcement').then((res) => replygcxeon(`*𝙶𝚛𝚘𝚞𝚙𝚎 𝚏𝚎𝚛𝚖é 𝚊𝚟𝚎𝚌 𝚜𝚞𝚌𝚌è𝚜*  ☑️`)).catch((err) => replygcxeon(json(err)))
                 } else if (args[0] === 'open') {
-                    await XeonBotInc.groupSettingUpdate(m.chat, 'not_announcement').then((res) => replygcxeon(`*Groupe ouvert avec succès* ✅¸`)).catch((err) => replygcxeon(json(err)))
+                    await XeonBotInc.groupSettingUpdate(m.chat, 'not_announcement').then((res) => replygcxeon(`*𝙶𝚛𝚘𝚞𝚙𝚎 𝚘𝚞𝚟𝚎𝚛𝚝 𝚊𝚟𝚎𝚌 𝚜𝚞𝚌𝚌è𝚜*  ☑️`)).catch((err) => replygcxeon(json(err)))
                 } else {
                     replygcxeon(`Mode ${command}\n\n\nType ${prefix + command}open/close`)
                 }
@@ -1164,7 +1164,7 @@ senddocu(buffer)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
                 let response = await XeonBotInc.groupInviteCode(m.chat)
-                XeonBotInc.sendText(m.chat, `🐲 *GROUP LINK INFO*\n🐲 *Name :* ${groupMetadata.subject}\n🐲 *Group Owner :* ${groupMetadata.owner !== undefined ? '@' + groupMetadata.owner.split`@`[0] : 'Not known'}\n🐲 *ID :* ${groupMetadata.id}\n🐲— *Chat Link :* https://chat.whatsapp.com/${response}\n🐲 *Member :* ${groupMetadata.participants.length}\n`, m, {
+                XeonBotInc.sendText(m.chat, `🐲 *GROUPE LIEN INFO*\n🐲 *🇳‌🇴‌🇲‌ :* ${groupMetadata.subject}\n🐲 *🇬‌🇷‌🇴‌🇺‌🇵‌🇪‌ 🇴‌🇼‌🇳‌🇪‌🇷‌ :* ${groupMetadata.owner !== undefined ? '@' + groupMetadata.owner.split`@`[0] : 'Not known'}\n🐲 *🇮‌🇩‌ :* ${groupMetadata.id}\n🐲— *🇨‌🇭‌🇦‌🇹‌ 🇱‌🇮‌🇪‌🇳‌ :* https://chat.whatsapp.com/${response}\n🐲 *🇲‌🇪‌🇲‌🇧‌🇷‌🇪‌🇸‌  :* ${groupMetadata.participants.length}\n`, m, {
                     detectLink: true
                 })
                 break
@@ -1214,7 +1214,7 @@ senddocu(buffer)
                 respon = `
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
-🐲 *GOKU* 🐲» Info Server
+🐲 *🇬‌🇴‌🇰‌🇺‌* 🐲» Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 _NodeJS Memory Usaage_
@@ -1266,14 +1266,14 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'runtime':
-                let runtimetext = `GOKU-MD AND BOTS HAVE BEEN RUNNING FOR ${runtime(process.uptime())}`
+                let runtimetext = `*🇬‌🇴‌🇰‌🇺‌-🇲‌🇩‌* AND BOTS HAVE BEEN RUNNING FOR ${runtime(process.uptime())}`
                 XeonBotInc.sendMessage(m.chat, {
                     text: runtimetext,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
                             title: `Yt alvinblaste...13`,
-                            body: `Cool avec Kevin Tsh 🐲`,
+                            body: `вy мr ĸÉvιn тѕн  🐲`,
                             thumbnailUrl: 'https://telegra.ph/file/0f3a4498b60151e2248f5.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
@@ -1288,7 +1288,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'script':
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `🌐 *_Git:_* https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD\n\n🪀 *_Groupe:_* https://chat.whatsapp.com/IJPYf6Zu4DYH50WaxuQz6r\n\n🪀 *_Channel:_* https://whatsapp.com/channel/0029VajjpHoGZNCsyVLRRk1f\n\n🐲 *_Dev:_* https://Wa.me/+243976995779`,
+                    text: `🌐 *_🇬‌🇮‌🇹‌:_* https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD\n\n🪀 *_🇬‌🇷‌🇴‌🇺‌🇵‌🇪‌ :_* https://chat.whatsapp.com/IJPYf6Zu4DYH50WaxuQz6r\n\n🪀 *_🇨‌🇭‌🇦‌🇳‌🇳‌🇪‌🇱‌ :_* https://whatsapp.com/channel/0029VajjpHoGZNCsyVLRRk1f\n\n🐲 *_🇩‌🇪‌🇻‌:_* https://Wa.me/+243976995779`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
@@ -2286,42 +2286,42 @@ break
             case 'alive':
             case 'Goku':
             case 'allmenu':
-                let xeonmenuoh = `╔〘 ${botname} 〙╗
-╔┅┅┅┅┅═══════┅┅┅┅𖣐
+                let xeonmenuoh = `╔•••〘 ${botname} 〙•••╗
+╔┅┅┅┅┅═══════┅┅┅┅┅➤
 ┃╭═──────────═╮
-┃║ *Prefix* : [ ]
+┃│ *Prefix* : [ ]
 ║║ *User* :  ${pushname}
-┃║ *Temps* : ${xeonytimewisher}
+┃│ *Temps* : ${xeonytimewisher}
 ┃║ *Jour : Regarde ta montre*
-║║ *Date : le calendrier!*
+║│ *Date : le calendrier!*
 ┃║ *Version : 1.0*
 ║│ *Plugins : 250*
 ┃║ *Ram : 64 GB*
-║║ *Alive* : ${runtime(process.uptime())}
-┃╰┅┅┅┅┅┅┅┅┅┅┅┅┅☚
-╚┈➤✰𝙵𝙰𝙼𝙸𝙻𝙻𝙴 𝙶𝚁𝙸𝙼𝙼⭐
+║│ *Alive* : *${runtime(process.uptime())}*
+┃╰┅┅┅┅┅┅┅┅┅┅┅┅┅❂
+╚┈➤✰𝗳𝗮𝗺𝗶𝗹𝗹𝗲 𝗚𝗿𝗶𝗺𝗺✰
 
-    ╭══════════════𖣐
-    ┊ ➥𝐴𝑁𝐷𝑅𝑂𝐼𝐷 𝐵𝑈𝐺✰
-    ║
-    ┊   ❐𝗫𝗺𝑜𝑟𝑠𝑢𝑟𝑒-𝑑𝑢-𝑠𝑜𝑙𝑒𝑖𝑙
-    ║   ❐𝑋𝑎𝑛𝑑𝑟𝑜𝑖𝑑𝟮
-    ┊   ❐𝑆𝑦𝑠𝑡𝑒𝑚𝑢𝑖𝑐ℎ
-    ║    ❐𝑋𝑠𝑦𝑠𝑢𝑖
-    ╰┅┅┅┅┅┅┅┅┅┅☚
-    ╭══════════════𖣐
-    ┊ ➥𝐼𝑂𝑆 𝐵𝑈𝐺✰
-    ║
-    ┊  ❐𝗫𝐾𝑎𝑚𝑒́ℎ𝑎𝑚𝑒́ℎ𝑎
-    ║  ❐𝑋𝑖𝑜𝑠𝟮
-    ╰┅┅┅┅┅┅┅┅┅┅☚
-    ╭══════════════𖣐
-    ┊ ➥𝐺𝑅𝑂𝑈𝑃𝐸 𝐵𝑈𝐺✰
-    ║
-    ┊  ❐𝗫𝑂𝑟𝑏𝑒-𝑑'𝑒𝑛𝑒𝑟𝑔𝑖𝑒
-    ╰┅┅┅┅┅┅┅┅┅┅☚
-╭════════════════𖣐
-┊ ➥𝑂𝑊𝑁𝐸𝑅 𝑀𝐸𝑁𝑈✰
+╭═══════════════➤
+┊ ➥🇧‌🇺‌🇬‌-🇦‌🇳‌🇩‌🇷‌🇴‌🇮‌🇩‌
+║
+┊   ❐𝗫𝗺𝑜𝑟𝑠𝑢𝑟𝑒-𝑑𝑢-𝑠𝑜𝑙𝑒𝑖𝑙
+║   ❐𝑋𝑎𝑛𝑑𝑟𝑜𝑖𝑑𝟮
+┊   ❐𝑆𝑦𝑠𝑡𝑒𝑚𝑢𝑖𝑐ℎ
+║    ❐𝑋𝑠𝑦𝑠𝑢𝑖
+╰┅┅┅┅┅┅┅┅┅┅❂
+╭═══════════════➤
+┊ ➥🇧‌🇺‌🇬‌-🇮‌🇴‌🇸‌
+║
+┊  ❐𝗫𝐾𝑎𝑚𝑒́ℎ𝑎𝑚𝑒́ℎ𝑎
+║  ❐𝑋𝑖𝑜𝑠𝟮
+╰┅┅┅┅┅┅┅┅┅┅❂
+╭═══════════════➤
+┊ ➥🇧‌🇺‌🇬‌-🇬‌🇷‌🇴‌🇺‌🇵‌ 
+║
+┊  ❐𝗫𝑂𝑟𝑏𝑒-𝑑'𝑒𝑛𝑒𝑟𝑔𝑖𝑒
+╰┅┅┅┅┅┅┅┅┅┅❂
+╭══════════════════➤
+┊ ➥🇲‌🇪‌🇳‌🇺‌-🇴‌🇼‌🇳‌🇪‌🇷‌
 ║
 ┊   ❐𝐺𝑒𝑡𝑠𝑒𝑠𝑠𝑖𝑜𝑛
 ║   ❐𝐷𝑒𝑙𝑒𝑡𝑒𝑠𝑠𝑖𝑜𝑛
@@ -2342,9 +2342,9 @@ break
 ┊   ❐𝐴𝑑𝑑𝑜𝑤𝑛𝑒𝑟
 ║   ❐𝐷𝑒𝑙𝑜𝑤𝑛𝑒𝑟
 ┊   ❐𝐵𝑐𝑔𝑐
-╰━━━━━━━━━━━━━━━☚
-╭════════════════𖣐
-┊ ➥𝐆𝐑𝐎𝐔𝐏𝐄 𝐌𝐄𝐍𝐔✰
+╰━━━━━━━━━━━━━━━━❂
+╭══════════════════➤
+┊ ➥🇲‌🇪‌🇳‌🇺‌-🇬‌🇷‌🇴‌🇺‌🇵‌
 ║
 ┊   ❐𝐂𝐥𝐨𝐬𝐞𝐭𝐢𝐦𝐞
 ║   ❐𝐎𝐩𝐞𝐧𝐭𝐢𝐦𝐞
@@ -2362,19 +2362,19 @@ break
 ║   ❐𝐋𝐢𝐧𝐤𝐠𝐜
 ┊   ❐𝐑𝐞𝐯𝐨𝐤𝐞
 ║   ❐𝐋𝐢𝐬𝐭𝐨𝐧𝐥𝐢𝐧𝐞
-╰━━━━━━━━━━━━━━━━☚
-   ╭═══════════════𖣐
-   ┊ ➥𝗠𝗔𝗜𝗡 𝗠𝗘𝗡𝗨✰
-   ║
-   ┊   ❐𝗠𝗲𝗻𝘂
-   ║   ❐𝗚𝗼𝗸𝘂-𝗺𝗱
-   ┊   ❐𝗥𝘂𝗻𝘁𝗶𝗺𝗲
-   ║   ❐𝗦𝗰𝗿𝗶𝗽𝘁
-   ┊   ❐𝗗𝗼𝗻𝗮𝘁𝗲
-   ║   ❐𝗢𝘄𝗻𝗲𝗿
-   ╰┅┅┅┅┅┅┅┅┅┅☚
-╭════════════════𖣐
-┊ ➥𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗠𝗘𝗡𝗨✰
+╰━━━━━━━━━━━━━━━━━❂
+╭════════════════➤
+┊ ➥🇲‌🇪‌🇳‌🇺‌-🇲‌🇦‌🇮‌🇳‌
+║
+┊   ❐𝗠𝗲𝗻𝘂
+║   ❐𝗚𝗼𝗸𝘂-𝗺𝗱
+┊   ❐𝗥𝘂𝗻𝘁𝗶𝗺𝗲
+║   ❐𝗦𝗰𝗿𝗶𝗽𝘁
+┊   ❐𝗗𝗼𝗻𝗮𝘁𝗲
+║   ❐𝗢𝘄𝗻𝗲𝗿
+╰┅┅┅┅┅┅┅┅┅┅❂
+╭══════════════════➤
+┊ ➥🇲‌🇪‌🇳‌🇺‌-🇨‌🇴‌🇳‌🇻‌🇪‌🇷‌🇹‌
 ║
 ┊   ❐𝘀𝘁𝗶𝗰𝗸𝗲𝗿
 ║   ❐𝗦𝗺𝗲𝗺𝗲
@@ -2390,9 +2390,9 @@ break
 ║   ❐𝗧𝗼𝘃𝗶𝗲𝘄𝗼𝗻𝗰𝗲
 ┊   ❐𝗙𝗹𝗶𝗽𝘁𝗲𝘅𝘁
 ║   ❐𝗘𝗺𝗼𝗷𝗶𝗺𝗶𝘅
-╰━━━━━━━━━━━━━━━━☚
-╭════════════════𖣐
-┊ ➥𝐎𝐓𝐇𝐄𝐑 𝐌𝐄𝐍𝐔✰
+╰━━━━━━━━━━━━━━━━━❂
+╭══════════════════➤
+┊ ➥🇲‌🇪‌🇳‌🇺‌-🇴‌🇹‌🇭‌🇪‌🇷‌
 ║
 ┊   ❐𝐀𝐝𝐝𝐯𝐢𝐝𝐞𝐨
 ║   ❐𝐀𝐝𝐝𝐢𝐦𝐚𝐠𝐞
@@ -2414,16 +2414,16 @@ break
 ║   ❐𝐋𝐢𝐬𝐭𝐳𝐢𝐩
 ┊   ❐𝐋𝐢𝐬𝐭𝐚𝐩𝐤
 ║   ❐𝐋𝐢𝐬𝐭𝐩𝐝
-╰━━━━━━━━━━━━━━━☚
-  ╭═══════════════𖣐
-  ┊ ➥𝐷𝑂𝑊𝑁 𝑀𝐸𝑁𝑈✰
-  ║
-  ┊   ❐𝑃𝐿𝐴𝑌
-  ║   ❐𝑌𝑇𝑀𝑁
-  ┊   ❐𝑌𝑇𝑀𝑃4
-  ║   ❐𝑆𝑂𝑈𝑁𝐷1-𝑆𝑂𝑈𝑁𝐷161
-  ╰┅┅┅┅┅┅┅┅┅┅┅┅☚
-  *☛Illustré  Par☚*
+╰━━━━━━━━━━━━━━━❂
+╭════════════════➤
+┊ ➥🇲‌🇪‌🇳‌🇺‌-🇩‌🇴‌🇼‌🇳‌
+║
+┊   ❐𝑃𝐿𝐴𝑌
+║   ❐𝑌𝑇𝑀𝑁
+┊   ❐𝑌𝑇𝑀𝑃4
+║   ❐𝑆𝑂𝑈𝑁𝐷1-𝑆𝑂𝑈𝑁𝐷161
+╰┅┅┅┅┅┅┅┅┅┅┅┅❂
+ *☛🇵‌🇴‌🇼‌🇪‌🇷‌🇪‌🇩‌☚*
 > 🌹𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹 ✓`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
