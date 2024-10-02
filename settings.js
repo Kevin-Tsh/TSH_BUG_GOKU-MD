@@ -1,11 +1,9 @@
-//base by Jean Parker 
+//base by Mr Kévin Tsh 
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @Jean-Parker-tech
-//Instagram: its_jeanparker
-//Telegram: t.me/Jeanparker100
-//GitHub: @Jeanparker100
-//WhatsApp: +22898133388
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@Jean-Parker-tech
+//YouTube: @alvinblaste...13
+//GitHub: @Kevin-Tsh
+//Whatsapp +224629088911
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@alvinblaste...13
 
 const fs = require('fs')
 const chalk = require('chalk')
@@ -22,7 +20,7 @@ global.ownername = '🌹𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹' //owner na
 global.botname = '🐲⸢𝐆𝐎𝐊𝐔-𝐌𝐃⸥🐲' //name of the bot
 
 //sticker details
-global.packname = '¹⁴³ ᴬˡᵉᵐᵃᵖ 🐲🌹'
+global.packname = 'FML-GRIMM🐲🌹'
 global.author = '𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇'
 
 //console view/theme
