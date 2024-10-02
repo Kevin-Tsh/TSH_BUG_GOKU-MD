@@ -1,11 +1,9 @@
-//base by Jean Parker 
+//base by Mr Kévin Tsh 
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @Jean-parker-tech
-//Instagram: its_jeanparker
-//Telegram: t.me/Jeanparker100
-//GitHub: @Jeanparker100
-//WhatsApp: +22898133388
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@Jean-parker-tech
+//YouTube: @alvinblaste...13
+//GitHub: @Kevin-Tsh
+//Whatsapp +224629088911
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@alvinblaste...13
 
 const { default: makeWaSocket, useMultiFileAuthState, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@whiskeysockets/baileys')
 const os = require('os')
@@ -2300,14 +2298,14 @@ break
 ║│ *Alive* : *${runtime(process.uptime())}*
 ┃╰┅┅┅┅┅┅┅┅┅┅┅┅┅❂
 ╚┈➤✰𝗳𝗮𝗺𝗶𝗹𝗹𝗲 𝗚𝗿𝗶𝗺𝗺✰
-
+${readmore}
 ╭═══════════════➤
 ┊ ➥🇧‌🇺‌🇬‌-🇦‌🇳‌🇩‌🇷‌🇴‌🇮‌🇩‌
 ║
 ┊   ❐𝗫𝗺𝑜𝑟𝑠𝑢𝑟𝑒-𝑑𝑢-𝑠𝑜𝑙𝑒𝑖𝑙
 ║   ❐𝑋𝑎𝑛𝑑𝑟𝑜𝑖𝑑𝟮
 ┊   ❐𝑆𝑦𝑠𝑡𝑒𝑚𝑢𝑖𝑐ℎ
-║    ❐𝑋𝑠𝑦𝑠𝑢𝑖
+║   ❐𝑋𝑠𝑦𝑠𝑢𝑖
 ╰┅┅┅┅┅┅┅┅┅┅❂
 ╭═══════════════➤
 ┊ ➥🇧‌🇺‌🇬‌-🇮‌🇴‌🇸‌
