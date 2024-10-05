@@ -1232,7 +1232,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `YouTube alvinblaste...13`,
                             body: `${latensi.toFixed(4)} Second`,
-                            thumbnailUrl: 'https://telegra.ph/file/0f3a4498b60151e2248f5.jpg',
+                            thumbnailUrl: 'https://i.postimg.cc/hjLTx2tV/9500842bd7f33d9ae4afab944769b353.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1254,7 +1254,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${ownername}`,
-                            thumbnailUrl: 'https://i.imgur.com/OW1NwMb.jpeg',
+                            thumbnailUrl: 'https://i.postimg.cc/wTGSjvW9/ee8c6bab286d2e1fc0ec81c009fd444a.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1266,7 +1266,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'runtime':
-                let runtimetext = `*🇬‌🇴‌🇰‌🇺‌-🇲‌🇩‌* AND BOTS HAVE BEEN RUNNING FOR ${runtime(process.uptime())}`
+                let runtimetext = `*🇬‌🇴‌🇰‌🇺‌-🇲‌🇩‌*  *AND BOTS HAVE BEEN RUNNING FOR ${runtime(process.uptime())}*`
                 XeonBotInc.sendMessage(m.chat, {
                     text: runtimetext,
                     contextInfo: {
@@ -1274,7 +1274,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `Yt alvinblaste...13`,
                             body: `вy мr ĸÉvιn тѕн  🐲`,
-                            thumbnailUrl: 'https://telegra.ph/file/0f3a4498b60151e2248f5.jpg',
+                            thumbnailUrl: 'https://i.postimg.cc/wTGSjvW9/ee8c6bab286d2e1fc0ec81c009fd444a.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1294,7 +1294,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `SCRIPT DE GOKU-MD EST SUR NOTRE CHAÎNE WHATSAPP 🐲`,
                             body: `Merci de suivre la chaîne bro 🐲`,
-                            thumbnailUrl: 'https://telegra.ph/file/e699cb075e1a4bda4f208.jpg',
+                            thumbnailUrl: 'https://i.postimg.cc/hjLTx2tV/9500842bd7f33d9ae4afab944769b353.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
