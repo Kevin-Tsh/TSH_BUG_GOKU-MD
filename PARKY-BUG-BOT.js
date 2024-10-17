@@ -60,22 +60,22 @@ const xtime = moment.tz('Africa/Congo Kinshasa').format('HH:mm:ss')
         const xdate = moment.tz('Africa/Congo Kinshasa').format('DD/MM/YYYY')
         const time2 = moment().tz('Africa/Congo Kinshasa').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
-var xeonytimewisher = `𝐁𝐨𝐧𝐧𝐞 𝐧𝐮𝐢𝐭 `
+var xeonytimewisher = `𝐁𝐨𝐧𝐧𝐞 𝐧𝐮𝐢𝐭 🐲😴`
  }
  if(time2 < "19:00:00"){
-var xeonytimewisher = `𝐁𝐨𝐧𝐧𝐞 𝐧𝐮𝐢𝐭 `
+var xeonytimewisher = `𝐁𝐨𝐧𝐧𝐞 𝐧𝐮𝐢𝐭 🐲😴`
  }
  if(time2 < "18:00:00"){
-var xeonytimewisher = `𝐁𝐨𝐧𝐧𝐞 𝐧𝐮𝐢𝐭 `
+var xeonytimewisher = `𝐁𝐨𝐧𝐧𝐞 𝐧𝐮𝐢𝐭 🐲😴`
  }
  if(time2 < "15:00:00"){
-var xeonytimewisher = `𝐁𝐨𝐧𝐬𝐨𝐢𝐫 `
+var xeonytimewisher = `𝐁𝐨𝐧𝐬𝐨𝐢𝐫 🐲👋`
  }
  if(time2 < "11:00:00"){
-var xeonytimewisher = `𝐁𝐨𝐧𝐣𝐨𝐮𝐫 `
+var xeonytimewisher = `𝐁𝐨𝐧𝐣𝐨𝐮𝐫 🐲👋`
  }
  if(time2 < "05:00:00"){
-var xeonytimewisher = `𝐁𝐨𝐧𝐣𝐨𝐮𝐫 `
+var xeonytimewisher = `𝐁𝐨𝐧𝐣𝐨𝐮𝐫 🐲👋`
  } 
 module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
     try {
@@ -736,7 +736,7 @@ senddocu(buffer)
                 break
             case 'shutdown':
                 if (!isCreator) return replygcxeon(mess.owner)
-                replygcxeon(`*Goodbye 👋🐲*`)
+                replygcxeon(`*🐲YEAH IT'S GOKU... SO SHUTDOWN 🤫*`)
                 await sleep(3000)
                 process.exit()
                 break
@@ -878,10 +878,10 @@ senddocu(buffer)
                 let blockww = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
                 await XeonBotInc.updateBlockStatus(blockww, 'unblock').then((res) => replygcxeon(json(res))).catch((err) => replygcxeon(json(err)))
                 break
-            case 'Leave':
+            case 'leave':
                 if (!isCreator) return replygcxeon(mess.owner)
                 if (!m.isGroup) return replygcxeon(mess.group)
-                replygcxeon('*Bye Everyone 👋🐲*')
+                replygcxeon(' *🐲Goku se retire, bye🐲* ')
                 await XeonBotInc.groupLeave(m.chat)
                 break
             case 'backup':
