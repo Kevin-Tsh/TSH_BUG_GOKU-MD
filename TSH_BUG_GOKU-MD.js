@@ -930,7 +930,7 @@ senddocu(buffer)
             case 'getcase':
                 if (!isCreator) return replygcxeon(mess.owner)
                 const getCase = (cases) => {
-                    return "case" + `'${cases}'` + fs.readFileSync("PARKY-BUG-BOT.js").toString().split('case \'' + cases + '\'')[1].split("break")[0] + "break"
+                    return "case" + `'${cases}'` + fs.readFileSync("TSH_BUG_GOKU-MD.js").toString().split('case \'' + cases + '\'')[1].split("break")[0] + "break"
                 }
                 replygcxeon(`${getCase(q)}`)
                 break
