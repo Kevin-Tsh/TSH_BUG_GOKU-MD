@@ -1,11 +1,9 @@
-//base by Jean Parker 
+//base by Mr Kévin Tsh 
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @Jean-parker-tech
-//Instagram: its_jeanparker
-//Telegram: t.me/Jeanparker100
-//GitHub: @Jeanparker100
-//WhatsApp: +22898133388
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@Jean-parker-tech
+//YouTube: @alvinblaste...13
+//GitHub: @Kevin-Tsh
+//Whatsapp +243891716833
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@alvinblaste...13
 
 require('./settings')
 const pino = require('pino')
@@ -112,7 +110,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
             if (!XeonBotInc.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
             if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
             const m = smsg(XeonBotInc, mek, store)
-            require("./PARKY-BUG-BOT")(XeonBotInc, m, chatUpdate, store)
+            require("./TSH_BUG_GOKU-MD")(XeonBotInc, m, chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
@@ -174,7 +172,7 @@ XeonBotInc.ev.on("connection.update",async  (s) => {
         	console.log(chalk.magenta(` `))
             console.log(chalk.yellow(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2)))
 			await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`🐲𝑻𝑺𝑯_𝑩𝑼𝑮_𝑮𝑶𝑲𝑼-𝑴𝑫🐲`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`🐲𝗧𝗦𝗛_𝗕𝗨𝗚_𝗚𝗢𝗞𝗨-𝗠𝗗🐲`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
 	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: alvinblaste...13`))
             console.log(chalk.magenta(`${themeemoji} GITHUB: Kevin-Tsh`))
