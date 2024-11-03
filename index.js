@@ -1,12 +1,9 @@
-//base by Jean Parker 
+//base by Mr Kévin Tsh 
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @Jean-parker-tech
-//Instagram: its_jeanparker
-//Telegram: t.me/Jeanparker100
-//GitHub: @Jeanparker100
-//WhatsApp: +22898133388
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@Jean-parker-tech
-
+//YouTube: @alvinblaste...13
+//GitHub: @Kevin-Tsh
+//Whatsapp +243891716833
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@alvinblaste...13
 
 const {
    spawn
