@@ -2,7 +2,7 @@
 //re-upload? recode? copy code? give credit ya :)
 //YouTube: @alvinblaste...13
 //GitHub: @Kevin-Tsh
-//Whatsapp +224629088911
+//Whatsapp +243891716833
 //want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@alvinblaste...13
 
 const fs = require('fs')
@@ -31,7 +31,7 @@ global.wm = "MR KEVIN TSH in©"
 global.link = 'https://whatsapp.com/channel/0029VajjpHoGZNCsyVLRRk1f'
 
 //custom prefix
-global.prefa = ['','!','.','#','&']
+global.prefa = ['','!','.','#','🌹']
 
 //false=disable and true=enable
 global.autoRecording = false //auto recording
@@ -57,15 +57,15 @@ global.bimg = '//9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQw
 
 //reply messages
 global.mess = {
-    done: '𝐃𝐨𝐧𝐞 !',
+    done: '𝐃𝐨𝐧𝐞 ✔️!',
     prem: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐛𝐲 𝐩𝐫𝐞𝐦𝐢𝐮𝐦 𝐮𝐬𝐞𝐫 𝐨𝐧𝐥𝐲',
     admin: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐛𝐲 𝐚𝐝𝐦𝐢𝐧 𝐨𝐧𝐥𝐲',
     botAdmin: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐜𝐚𝐧 𝐨𝐧𝐥𝐲 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐰𝐡𝐞𝐧 𝐭𝐡𝐞 𝐆𝐎𝐊𝐔-𝐌𝐃 𝐢𝐬 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧',
-    owner: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐛𝐲 𝐨𝐰𝐧𝐞𝐫 𝐨𝐧𝐥𝐲',
+    owner: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐛𝐲 𝐌𝐑 𝐊𝐄́𝐕𝐈𝐍 𝐓𝐒𝐇  𝐨𝐧𝐥𝐲',
     group: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐢𝐬 𝐨𝐧𝐥𝐲 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩𝐬',
     private: '𝐓𝐡𝐢𝐬 𝐟𝐞𝐚𝐭𝐮𝐫𝐞 𝐢𝐬 𝐨𝐧𝐥𝐲 𝐟𝐨𝐫 𝐩𝐫𝐢𝐯𝐚𝐭𝐞 𝐜𝐡𝐚𝐭𝐬',
-    wait: '𝐈𝐧 𝐩𝐫𝐨𝐜𝐞𝐬𝐬...',    
-    error: '𝐄𝐫𝐫𝐨𝐫!',
+    wait: '𝐈𝐧 𝐩𝐫𝐨𝐜𝐞𝐬𝐬...🔄',    
+    error: '𝐄𝐫𝐫𝐨𝐫 ❌!',
 }
 
 global.thumb = fs.readFileSync('./parkyMedia/thumb.jpg')
